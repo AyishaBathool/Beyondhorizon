@@ -1,0 +1,263 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon</title>
+
+    <style>
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+        }
+        
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    
+
+    <section class="hero">
+        <h1>Welcome to Beyond Horizon Tourism</h1>
+        <p>Discover Limitless Wonders Around the Globe</p>
+        <a href="#destinations" class="btn">Explore Destinations</a>
+    </section>
+    
+
+    <section class="gallery" id ="gallery">
+        <h2>Gallery</h2>
+        <div>
+            
+            <!-- Replace with your gallery images and adjust URLs accordingly -->
+            
+            <a href="paris.html"> <img src="{% static 'ipa.jpg' %}" alt="Image 1"> </a>
+            <a href="egypt.html"> <img src="https://rollandgallery.callutheran.edu/files/2020/04/GizaPryamids-300x200.jpg" alt="Image 2"> </a>
+            <a href="singapore.html"><img src="https://www.incorp.asia/wp-content/uploads/2022/12/sustainability-singapore-nation-300x200.jpg" alt="Image 3"> </a>
+            <a href="italy.html"><img src="https://magnummarine.com/wp-content/uploads/2020/10/Top-10-Boating-Locations-in-Italy-300x200.jpg" alt="Image 4"> </a>
+            <a href="thailand.html"><img src="https://sabredor-thailand.org/wp-content/uploads/2020/04/yavor-punchev-EerfoqyC7aM-unsplash-300x200.jpg.webp" alt="Image 5"> </a>
+            <a href="switzerland.html"><img src="https://ecommercenews.eu/static/wp-content/uploads/2021/06/switzerland.jpg?w=300&h=200&bg=white&fm=webp" alt="Image 6"> </a>
+            <a href="dubai.html"><img src="https://lenaonthemove.com/wp-content/uploads/2013/06/Dubai-Skyline-300x200.jpg" alt="Image 7"> </a>
+            <a href="maldives.html"><img src="https://www.breakingtravelnews.com/images/sized/images/uploads/news-events/465571045-300x0.jpg" alt="Image 8"> </a>
+            <a href="germany.html"><img src="https://www.autoeurope.com/default/assets/image/2014/08/Ricky-Blog-Germany-Attractionsresize1-300x200.jpg" alt="Image 9"> </a>
+            <a href="aust.html"><img src="https://insertface.com/fb/129/auckland-new-zealand-skyline-photo-background-128949-fb.jpg" alt="Image 10"> </a>
+        </div>
+    </section>
+
+    <section class="section" id="destinations">
+        <div class="destination">
+            <h3>Paris</h3>
+            <p>Paris is the capital city of France, known for its iconic Eiffel Tower, Louvre Museum, and delicious pastries.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Dubai</h3>
+            <p>Dubai is a city in the United Arab Emirates famous for its modern architecture, luxury shopping, and vibrant nightlife.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Singapore</h3>
+            <p>Singapore is a vibrant, modern city-state known for its stunning skyline and multiculturalism.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Italy</h3>
+            <p>Italy is a country in Southern Europe known for its rich history, art, culture, and iconic cuisine, including pizza and pasta.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="destination">
+            <h3>Thailand</h3>
+            <p>Thailand, known for its stunning beaches, vibrant street markets, and rich cultural heritage, is a Southeast Asian paradise.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Egypt</h3>
+            <p>Egypt is known for its rich history, ancient civilization, and iconic landmarks, including the Pyramids of Giza and the Nile River.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Switzerland</h3>
+            <p>Switzerland is a picturesque European country known for its stunning alpine landscapes, charming villages, and precision engineering.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Maldives</h3>
+            <p>The Maldives is a tropical paradise renowned for its overwater bungalows, vibrant coral reefs, and crystal-clear waters.</p>
+        </div>
+    </section>
+    
+    <section  class="section">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: contact@beyondhorizon.com</p>
+            <p>Phone: +123-456-7890</p>
+        </div>
+        
+    </section>
+    
+
+    <footer>
+        &copy; 2023 Beyond Horizon Tourism
+    </footer>
+</body>
+</html>
+
+
+

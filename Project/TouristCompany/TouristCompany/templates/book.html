@@ -1,0 +1,461 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Booking page</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Book Us </h1>
+    </header>
+    
+    
+
+    <!-- Chiang Mai -->
+    <div class="place">
+        <h2>Tourism Package: Explore Paris</h2>
+        <img src="https://www.cslbehring.de/-/media/cslb-germany2/cslb-germany/story-images/eiffelturm.jpg?h=900&iar=0&w=1600&cropregion=0,0,1600,900&hash=59E6F69EBF6D0014206320296A374047" alt="Eiffel Tower">
+        <p>Experience the enchantment of the City of Light with our "Explore Paris" package. Discover the iconic landmarks, art, and culture that make Paris a world-famous destination.</p>
+        <ul>
+            <li>Duration: 5 days and 4 nights</li>
+            <li>Accommodation: Stay in elegant hotels in the heart of Paris.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Explore the iconic Eiffel Tower and enjoy panoramic views of Paris.</li>
+                <li>Visit the world-renowned Louvre Museum, home to masterpieces like the Mona Lisa.</li>
+                <li>Discover the grandeur of Notre-Dame Cathedral, a masterpiece of French Gothic architecture.</li>
+                <li>Cruise the Seine River at night for a romantic tour of Paris illuminated by city lights.</li>
+                <li>Embark on a journey to the opulent Palace of Versailles, a UNESCO World Heritage site.</li>
+            </ul>
+            <li>Price: Starting from $450 per person (including airfare)</li>
+        </ul>
+    </div>
+    
+    <div class="place">
+        <h2>Tourism Package: Explore Dubai</h2>
+        <img src="https://img.goodfon.com/original/1600x900/7/f4/dubai-uae-burj-khalifa-dubai-oae-burdzh-khalifa-nochnoi-goro.jpg" alt="Dubai Package">
+        <p>Discover the enchantment of Dubai with our "Explore Dubai" package. Immerse yourself in the opulence and beauty of this vibrant city, featuring its iconic landmarks and modern wonders.</p>
+        <ul>
+            <li>Duration: 7 days and 6 nights</li>
+            <li>Accommodation: Enjoy a luxurious stay at a 5-star hotel in the heart of Dubai.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Ascend the Burj Khalifa for breathtaking panoramic views of Dubai.</li>
+                <li>Shop and explore the Dubai Mall, home to over 1,200 shops and attractions like the Dubai Aquarium.</li>
+                <li>Indulge in a sumptuous dining experience at the iconic Burj Al Arab.</li>
+                <li>Relax on the pristine beaches of Palm Jumeirah.</li>
+                <li>Stroll along the picturesque Dubai Marina and enjoy a scenic boat tour.</li>
+                <li>Experience the historical charm of Dubai Creek with a traditional abra ride.</li>
+                <li>Unwind at the beautiful Jumeirah Beach with a day of sun, sea, and water sports.</li>
+                <li>Visit the stunning Dubai Frame for panoramic views of the city, bridging the old and new Dubai.</li>
+                <li>Enjoy a day of family fun at Dubai Parks and Resorts, featuring various theme parks and attractions.</li>
+                <li>Experience the thrill of winter sports in the desert at Ski Dubai.</li>
+            </ul>
+            <li>Price: Starting from $980 per person (including airfare)</li>
+        </ul>
+    </div>
+    
+
+     <!-- Ayutthaya -->
+     <div class="place">
+        <h2>Tourism Package: Explore Singapore</h2>
+        <img src="https://4kwallpapers.com/images/walls/thumbs_3t/2113.jpg" alt="Singapore Package">
+        <p>Experience the enchantment of Singapore with our "Explore Singapore" package. Immerse yourself in the rich cultural diversity and natural beauty of this captivating city-state.</p>
+        <ul>
+            <li>Duration: 6 days and 5 nights</li>
+            <li>Accommodation: Enjoy a luxurious stay at a 5-star hotel in the heart of Singapore.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Visit the iconic Marina Bay Sands with its stunning rooftop infinity pool and observation deck.</li>
+                <li>Explore the futuristic Gardens by the Bay, featuring the Supertree Grove, Cloud Forest, and Flower Dome.</li>
+                <li>Discover Sentosa Island, home to Universal Studios Singapore, Adventure Cove Waterpark, and beautiful beaches.</li>
+                <li>Embark on a fascinating journey at the Singapore Zoo, known for its open and spacious enclosures.</li>
+                <li>Stroll through the lush Singapore Botanic Gardens, a UNESCO World Heritage site with vibrant orchids.</li>
+                <li>Immerse yourself in the vibrant streets of Chinatown, visit historic temples, and savor delicious street food.</li>
+                <li>Experience the cultural tapestry of Little India, with its colorful streets, aromatic spices, and ornate temples.</li>
+                <li>Enjoy picturesque views of the city skyline at Merlion Park, home to the iconic Merlion statue.</li>
+                <li>Explore the fusion of art and science at the unique ArtScience Museum located in Marina Bay Sands.</li>
+                <li>Dive into Singapore's history and culture at the National Museum of Singapore, with engaging exhibits and multimedia displays.</li>
+            </ul>
+            <li>Price: Starting from $999 per person (including airfare)</li>
+        </ul>
+    </div>
+    
+
+     <!-- Chiang Rai -->
+     <div class="place">
+        <h2>Tourism Package: Discover Italy's Treasures</h2>
+        <img src="https://wallpapersmug.com/download/1600x900/c805c3/colosseum-ancient-architecture-rome.jpg" alt="Italy Package">
+        <p>Embark on a remarkable journey through the timeless beauty and history of Italy with our "Discover Italy's Treasures" package. Explore the iconic cities, coastal gems, and cultural wonders of this enchanting country.</p>
+        <ul>
+            <li>Duration: 10 days and 9 nights</li>
+            <li>Accommodation: Enjoy comfortable stays in well-selected hotels across Italy.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Experience the grandeur of Rome, visiting the Colosseum, Roman Forum, Pantheon, and the spiritual magnificence of Vatican City with St. Peter's Basilica and the Sistine Chapel.</li>
+                <li>Throw a coin into the Trevi Fountain for a dash of luck.</li>
+                <li>Discover the birthplace of the Renaissance, Florence, with visits to the Uffizi Gallery, Florence Cathedral (Duomo), and the Ponte Vecchio bridge.</li>
+                <li>Wander through the labyrinthine canals of Venice, exploring St. Mark's Square, Doge's Palace, and experiencing an enchanting gondola ride.</li>
+                <li>Explore the colorful villages of Cinque Terre, a UNESCO World Heritage site, with stunning coastal views and hiking trails.</li>
+                <li>Enjoy the breathtaking coastal scenery and charming towns of the Amalfi Coast, with opportunities for hiking and savoring Mediterranean cuisine.</li>
+                <li>Step back in time at Pompeii and Herculaneum, two ancient Roman cities preserved by the eruption of Mount Vesuvius.</li>
+                <li>Delight in Sicily's diverse attractions, from ancient Greek temples to the stunning beaches of Taormina and the landscapes around Mount Etna.</li>
+                <li>Experience the rolling hills and vineyards of Tuscany, visiting Siena, Pisa with the Leaning Tower, and picturesque wineries.</li>
+                <li>Discover Milan, Italy's fashion and design capital, and its cultural gems, including "The Last Supper" and Milan Cathedral (Duomo).</li>
+                <li>Immerse yourself in the vibrant streets and authentic Neapolitan pizza of Naples.</li>
+            </ul>
+            <li>Price: Starting from $1,099 per person (including airfare)</li>
+        </ul>
+    </div>
+    
+
+     <!-- Krabi Province -->
+     <div class="place">
+        <h2>Tourism Package: Explore the Best of Thailand</h2>
+        <img src="https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="Thailand Package">
+        <p>Experience the enchanting beauty, culture, and adventures of Thailand with our "Explore the Best of Thailand" package. Discover diverse landscapes, historical treasures, and vibrant cities in the Land of Smiles.</p>
+        <ul>
+            <li>Duration: 12 days and 11 nights</li>
+            <li>Accommodation: Stay in comfortable and culturally immersive hotels and resorts across Thailand.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Begin your journey in Bangkok, the bustling metropolis. Explore the Grand Palace, Wat Pho, and enjoy the vibrant street life.</li>
+                <li>Visit Chiang Mai, known for its historic temples, lush mountains, and the annual Yi Peng Lantern Festival.</li>
+                <li>Relax on Thailand's largest island, Phuket, with its stunning beaches, water sports, and vibrant nightlife.</li>
+                <li>Explore the UNESCO World Heritage site of Ayutthaya with its ancient temples and ruins.</li>
+                <li>Witness the unique White Temple (Wat Rong Khun) and the Black House (Baan Dam) in Chiang Rai.</li>
+                <li>Discover Krabi Province, known for its limestone karsts, rock climbing, and island-hopping adventures.</li>
+                <li>Travel back in time in Sukhothai, the first capital of Thailand, with well-preserved ruins and historical parks.</li>
+                <li>Escape to the mountains of Pai, a laid-back town with scenic beauty, hot springs, and waterfalls.</li>
+                <li>Relax on Koh Samui, an island in the Gulf of Thailand, offering beautiful beaches and a relaxed atmosphere.</li>
+                <li>Experience the coastal resort town of Hua Hin, known for its royal palace, night markets, and golf courses.</li>
+            </ul>
+            <li>Price: Starting from $1,140 per person (including airfare)</li>
+        </ul>
+    </div>
+    
+
+     <!-- Sukhothai -->
+     <div class="place">
+        <h2>Tourism Package: Explore the Beauty of Switzerland</h2>
+        <img src="https://images.unsplash.com/photo-1620563092215-0fbc6b55cfc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Switzerland Package">
+        <p>Embark on a journey to discover the unparalleled beauty of Switzerland with our "Explore the Beauty of Switzerland" package. Immerse yourself in the breathtaking landscapes, charming cities, and rich culture of this enchanting country.</p>
+        <ul>
+            <li>Duration: 12 days and 11 nights</li>
+            <li>Accommodation: Enjoy comfortable stays in handpicked hotels and chalets that showcase the Swiss way of life.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Start your adventure in Zurich, Switzerland's largest city. Explore the historic old town, enjoy a cruise on Lake Zurich, and visit the Swiss National Museum.</li>
+                <li>Travel to Lucerne, a picturesque city nestled by Lake Lucerne and surrounded by snow-capped mountains. Don't miss the Chapel Bridge and a boat trip on the lake.</li>
+                <li>Experience the thrill of Interlaken, the adventure lover's paradise. Enjoy hiking, skiing, and paragliding in the heart of the Swiss Alps.</li>
+                <li>Ascend to the "Top of Europe" with a visit to Jungfraujoch. Marvel at the Aletsch Glacier and explore the high-altitude wonderland by cogwheel train.</li>
+                <li>Discover Zermatt, known for its stunning landscapes and the iconic Matterhorn. Savor traditional Swiss cuisine and chocolate.</li>
+                <li>Explore Geneva, a cosmopolitan city by the shores of Lake Geneva. Visit international organizations, museums, and the famous Jet d'Eau fountain.</li>
+                <li>Wander through Bern, the capital city with a UNESCO World Heritage old town. Explore the Zytglogge clock tower and the Bear Park.</li>
+                <li>Experience the charm of Lausanne, located on the shores of Lake Geneva. Visit the Olympic Museum and explore beautiful vineyards.</li>
+                <li>Immerse yourself in the grandeur of the Swiss Alps. Hike through lush meadows, gaze at the Matterhorn, and cruise on Lake Geneva.</li>
+            </ul>
+            <li>Price: Starting from $1,390 per person (including airfare)</li>
+        </ul>
+    </div>
+        </ul>
+    </div>
+    
+    
+
+     
+
+     <!-- Koh Samui -->
+     <div class="place">
+        <h2>Tourism Package: Explore the Beauty of the Maldives</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Mal%C3%A9_Maldives_%281%29.jpg/1280px-Mal%C3%A9_Maldives_%281%29.jpg" alt="Maldives Package">
+        <p>Escape to the tropical paradise of the Maldives with our "Explore the Beauty of the Maldives" package. Experience the azure waters, pristine beaches, and vibrant marine life of this stunning island nation.</p>
+        <ul>
+            <li>Duration: 10 days and 9 nights</li>
+            <li>Accommodation: Stay in luxurious overwater bungalows and beachfront villas that offer breathtaking ocean views.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Begin your journey in Malé, the capital city. Explore its bustling markets, historic mosques, and vibrant culture.</li>
+                <li>Visit Ari Atoll, a diver's paradise known for its diverse marine life. Dive or snorkel amidst colorful coral reefs and encounter manta rays and sea turtles.</li>
+                <li>Explore Baa Atoll, a UNESCO Biosphere Reserve. Witness vibrant coral reefs, go dolphin watching, and enjoy sustainable tourism practices.</li>
+                <li>Discover North Male Atoll, famous for water sports and luxury resorts. Experience underwater adventures and relax on white-sand beaches.</li>
+                <li>Indulge in the romantic ambiance of South Male Atoll. Enjoy scenic sunsets, overwater bungalows, and snorkeling in crystal-clear waters.</li>
+                <li>Experience the tranquility of Laamu Atoll. Engage in eco-friendly activities, explore local culture, and enjoy water sports.</li>
+                <li>Immerse yourself in the history of Addu Atoll. Visit the British Loyalty Island and explore the unique British influence.</li>
+                <li>Relax in Vaavu Atoll, a less crowded paradise. Enjoy pristine beaches, vibrant marine life, and tranquility.</li>
+                <li>Embark on an adventure to Alimatha Island for thrilling night snorkeling with manta rays and bird watching.</li>
+                <li>Unwind on Fihalhohi Island, perfect for budget travelers seeking relaxation and water sports.</li>
+            </ul>
+            <li>Price: Starting from $1,750 per person (including airfare)</li>
+        </ul>
+    </div>
+            </ul>
+        </ul>
+    </div>
+    
+
+    <!-- Hua Hin -->
+    <div class="place">
+        <h2>Tourism Package: Explore the Wonders of Germany</h2>
+        <img src="https://www.germany.travel/media/redaktion/staedte_kultur_content/Berlin_Brandenburger_Tor_im_Sonnenuntergang_Leitmotiv_German_Summer_Cities.jpg" alt="Germany Package">
+        <p>Discover the beauty and culture of Germany with our "Explore the Wonders of Germany" package. Immerse yourself in the rich history, stunning landscapes, and vibrant cities of this European gem.</p>
+        <ul>
+            <li>Duration: 14 days and 13 nights</li>
+            <li>Accommodation: Stay in a combination of historic hotels, charming guesthouses, and modern city accommodations.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Begin your journey in Berlin, the capital city. Explore iconic landmarks such as the Brandenburg Gate, Berlin Wall Memorial, and Museum Island.</li>
+                <li>Visit Munich, the heart of Bavaria, and experience the Oktoberfest celebrations. Explore Nymphenburg Palace and the bustling Marienplatz.</li>
+                <li>Discover the enchanting Neuschwanstein Castle, the inspiration for Disney's Cinderella Castle, nestled in the Bavarian Alps.</li>
+                <li>Explore Cologne with its stunning Cologne Cathedral, a UNESCO World Heritage site. Stroll along the Rhine River and explore the Old Town.</li>
+                <li>Embark on the scenic Romantic Road, passing through charming Bavarian towns, rolling hills, and the picturesque Allgäu region.</li>
+                <li>Experience the maritime history of Hamburg, one of Europe's busiest ports. Visit the Miniatur Wunderland, a massive model railway exhibition.</li>
+            </ul>
+            <li>Price: Starting from $2,100 per person (including airfare)</li>
+        </ul>
+    </div>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="place">
+        <h2>Tourism Package: Explore the Beauty of Australia</h2>
+        <img src="https://static.nationalgeographic.co.uk/files/styles/image_3200/public/sydneyharbour.webp?w=1450&h=816" alt="Australia Package">
+        <p>Experience the incredible diversity and natural beauty of Australia with our "Explore the Beauty of Australia" package. This adventure will take you through some of Australia's most iconic destinations and landscapes.</p>
+        <ul>
+            <li>Duration: 15 days and 14 nights</li>
+            <li>Accommodation: Enjoy a mix of comfortable hotels, unique lodges, and beachfront resorts.</li>
+            <li>Package Highlights:</li>
+            <ul>
+                <li>Start your journey in Sydney, New South Wales, Australia's largest city. Explore the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach.</li>
+                <li>Visit the Great Barrier Reef, a UNESCO World Heritage site. Snorkel, scuba dive, and sail around the world's largest coral reef system.</li>
+                <li>Discover the enchanting Uluru-Kata Tjuta National Park in the Northern Territory. Witness the color-changing Uluru and explore the cultural significance of Kata Tjuta.</li>
+                <li>Explore Melbourne, Victoria, known for its vibrant culture and café scene. Stroll along the Yarra River and indulge in diverse cuisines.</li>
+                <li>Head to Tasmania, an island state of Australia. Enjoy the pristine beaches of the Bay of Fires, explore Maria Island, and savor the island's gourmet food and wine.</li>
+            </ul>
+            <li>Price: Starting from $2,300 per person (including airfare)</li>
+        </ul>
+    </div>
+            </ul>
+        </ul>
+    </div>
+    
+    
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

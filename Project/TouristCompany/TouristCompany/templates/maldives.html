@@ -1,0 +1,419 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Maldives</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Top Places to Visit in Maldives</h1>
+    </header>
+
+    <!-- Male -->
+    <div class="place">
+        <h2> Male</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Mal%C3%A9_Maldives_%281%29.jpg/1280px-Mal%C3%A9_Maldives_%281%29.jpg" alt="Male">
+        <p style="color: black;">The capital city of the Maldives, Male is a bustling center with colorful buildings, markets, and historic sites like Hukuru Miskiy (Friday Mosque) and the Presidential Palace.</p>
+<ul style="color: black;">
+    <li>Male is the smallest capital city in Asia in terms of land area, covering just 2.8 square kilometers (1.1 square miles).</li>
+    <li>The city is situated in the North Male Atoll, surrounded by the Indian Ocean.</li>
+    <li>The architecture in Male is a blend of modern and traditional designs.</li>
+    <li>Male offers a unique blend of modernity and tradition and serves as the gateway to the Maldives, welcoming travelers with its rich culture and history.</li>
+</ul>
+<p style="color: black;">If you're planning to visit Male, consider the following tips:</p>
+<ul style="color: black;">
+    <li>One notable landmark is the Islamic Center, featuring the impressive Grand Friday Mosque with its golden dome.</li>
+    <li>The Hukuru Miskiy, also known as the Old Friday Mosque, is an ancient coral stone mosque dating back to the 17th century.</li>
+    <li> The artificial beach, locally known as "Rasfannu," is a popular gathering place for locals and tourists.</li>
+</ul>
+
+    </div>
+
+    <!-- Ari Atoll -->
+    <div class="place">
+        <h2>Ari Atoll</h2>
+        <img src="https://pix8.agoda.net/hotelImages/27755035/0/e38ada1fe28d48f114484599ce0c65cc.jpg?ca=22&ce=0&s=1024x768" alt="Ari Atoll">
+        <p>Located in the western part of the Maldives, Ari Atoll is famous for its abundant marine life and excellent diving and snorkeling opportunities. It's a popular destination for underwater adventures.</p>
+        <ul>
+            <li>Geographic Area: It covers a substantial geographic area, making it one of the largest atolls in the Maldives.</li>
+            <li>Geographic Features: The atoll consists of multiple islands, coral reefs, and underwater pinnacles.</li>
+            <li>Biodiversity: Ari Atoll is famous for its rich biodiversity, including a variety of marine species such as sharks, manta rays, and sea turtles.</li>
+            <li>Diving and Snorkeling: The atoll is a popular destination for divers and snorkelers due to its vibrant coral reefs and underwater caves.</li>
+        </ul>
+        <p>When visiting Ari Atoll:</p>
+        <ul>
+            <li>Tourism is a major industry in Ari Atoll, with travelers coming to explore its natural beauty and underwater wonders.</li>
+            <li>Due to its remote location and minimal light pollution, Ari Atoll offers fantastic stargazing opportunities.</li>
+            <li>Conservation efforts are ongoing to protect the natural environment, including coral restoration and marine conservation programs.</li>
+        </ul>
+    </div>
+
+     <!-- Baa Atoll -->
+     <div class="place">
+        <h2>Baa Atoll</h2>
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/5e/9d/1b/seaside-finolhu.jpg?w=1200&h=-1&s=1" alt="Baa Atoll">
+        <p> Baa Atoll is a UNESCO Biosphere Reserve and home to some of the Maldives' most luxurious resorts. It's known for its unique natural beauty and vibrant coral reefs.</p>
+        <ul>
+            <li>Baa Atoll is located in the central-western part of the Maldives in the Indian Ocean.</li>
+            <li>It consists of 75 islands, both inhabited and uninhabited.</li>
+            <li>Baa Atoll has been designated a UNESCO Biosphere Reserve due to its rich biodiversity and unique ecological features.</li>
+            <li>The atoll is known for its vibrant coral reefs and diverse marine life, making it a top destination for divers and snorkelers.</li>
+        </ul>
+        <p>When visiting the Baa Atoll:</p>
+        <ul>
+            <li> Baa Atoll is a popular spot for dolphin and whale watching. Spinner dolphins are commonly spotted in these waters.</li>
+            <li>aa Atoll is a pioneer in sustainable tourism, with resorts and local communities participating in eco-friendly practices.</li>
+            <li>Baa Atoll is a paradise for nature lovers, marine enthusiasts, and those seeking a luxury island getaway. Its unique natural beauty, combined with a commitment to sustainability, makes it a remarkable destination in the Maldives.</li>
+        </ul>
+    </div>
+
+     <!-- North Male Atoll -->
+     <div class="place">
+        <h2>North Male Atoll</h2>
+        <img src="https://maldivesresorts.com.au/wp-content/uploads/Lux-North-Male-Atoll.1.LUX-North-Male-Atoll-Feature-1.jpg" alt="North Male Atoll">
+        <p>This atoll is one of the most visited in the Maldives and offers a range of resorts and water sports activities. It's easily accessible from the international airport.</p>
+        <ul>
+            <li>It is situated to the north of the capital city of Malé and is easily accessible from Velana International Airport (Malé International Airport).</li>
+            <li>North Male Atoll is part of the larger Malé Atoll archipelago, which includes several smaller islands and islets.</li>
+            <li>It is characterized by its stunning coral reefs and clear blue waters, making it a prime destination for water sports and diving.</li>
+            <li>The atoll boasts numerous luxury resorts and guesthouses, making it a popular destination for tourists.</li>
+        </ul>
+        <p>When visiting the North Male Atoll:</p>
+        <ul>
+            <li> It is renowned for its beautiful white-sand beaches and overwater bungalows.</li>
+            <li> Diving in North Male Atoll is excellent, with various dive sites featuring colorful coral formations and diverse marine life.</li>
+            <li>Malé, the capital city, is a short boat ride away, offering opportunities for shopping, dining, and exploring the local culture.</li>
+        </ul>
+    </div>
+
+     <!-- South Male Atoll -->
+     <div class="place">
+        <h2>South Male Atoll</h2>
+        <img src="https://img.peapix.com/12043430667454217273_1080.jpg" alt="South Male Atoll">
+        <p>Known for its picturesque landscapes, South Male Atoll is home to numerous luxury resorts, making it a perfect destination for a romantic getaway.</p>
+        <ul>
+            <li>Geographical Extent: It covers an area of approximately 32 square kilometers.</li>
+            <li>Crystal-Clear Waters: The azure waters of South Male Atoll are perfect for swimming and relaxing. </li>
+            <li>Diverse and captivating destination for travelers in northern Thailand.</li>
+            <li>Luxury Resorts: The atoll is home to numerous luxury resorts that offer overwater bungalows and beautiful beaches.</li>
+        </ul>
+        <p>When visiting the South Male Atoll</p>
+        <ul>
+            <li>Diving and Snorkeling: South Male Atoll is renowned for its vibrant coral reefs, making it an ideal destination for diving and snorkeling.</li>
+            <li>Majestic Sunsets and Sunrises: Experience breathtaking sunsets and sunrises against the backdrop of the Indian Ocean.</li>
+            <li>Romantic Getaways: With its idyllic setting, South Male Atoll is a top choice for honeymooners and romantic vacations.</li>
+        </ul>
+    </div>
+
+     <!-- Laamu Atoll -->
+     <div class="place">
+        <h2>Laamu Atoll</h2>
+        <img src="https://www.zubludiving.com/imager/images/Maldives/Thaa-and-Laamu-Atolls/22460/Laamu-Atoll-Maldives-Scuba-Diving-Banner_7dc09c0751cb822c11b13c9275467c28.webp" alt="Laamu Atoll">
+        <p>Laamu Atoll is famous for its eco-friendly resorts and water sports. It's a quieter and more pristine region of the Maldives.</p>
+        <ul>
+            <li>Laamu Atoll is situated in the southern part of the Maldives.</li>
+            <li>It covers an area of approximately 178 square kilometers (69 square miles).</li>
+            <li>The atoll is made up of numerous islands, both inhabited and uninhabited.</li>
+            <li>Laamu Atoll is known for its pristine beaches, clear waters, and lush vegetation.</li>
+        </ul>
+        <p>When visiting the Laamu Atoll:</p>
+        <ul>
+            <li>Maandhoo Island: A popular destination for water sports and enjoying the local Maldivian culture.</li>
+            <li>Cultural Experiences: Learn about Maldivian culture, art, and crafts through organized activities and workshops.</li>
+            <li>Laamu Atoll is a serene and eco-conscious destination that offers a balance between relaxation and adventure, making it a popular choice for travelers seeking an authentic Maldivian experience.</li>
+        </ul>
+    </div>
+
+     <!-- Addu Atoll -->
+     <div class="place">
+        <h2>Addu Atoll</h2>
+        <img src="https://www.pebblesinn.com/wp-content/uploads/2015/11/background-1024x576.jpg" alt="Addu Atoll">
+        <p> Located at the southernmost tip of the Maldives, Addu Atoll offers a unique cultural experience and historical sites, such as the British Loyalty Island. It's also great for diving.</p>
+        <ul>
+            <li>Area: It covers an area of approximately 2,800 square kilometers.</li>
+            <li>British Influence: Addu Atoll has a unique history due to its time as a British naval base during World War II.</li>
+            <li>Remnants of the British Era: The atoll still has remnants of the British naval presence, including a runway, which is now the Gan International Airport.</li>
+            <li>Local Culture: Despite the British influence, Addu Atoll maintains its Maldivian culture and traditions.</li>
+        </ul>
+        <p>When visiting the Addu Atoll:</p>
+        <ul>
+            <li>Hithadhoo: The largest island in Addu Atoll, Hithadhoo is known for its beautiful beaches and vibrant coral reefs. </li>
+            <li>British Loyalty Island: Explore this historical island that served as a British naval base during World War II. The remains of buildings and structures can still be seen.</li>
+            <li>Addu Atoll is an excellent destination for travelers seeking a more peaceful and authentic Maldivian experience, away from the hustle and bustle of the more touristy atolls in the country.</li>
+        </ul>
+    </div>
+
+     <!-- Vaavu Atoll -->
+     <div class="place">
+        <h2>Vaavu Atoll</h2>
+        <img src="https://plus.unsplash.com/premium_photo-1666497934040-ec832d302f13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1570&q=80" alt="Vaavu Atoll">
+        <p>Vaavu Atoll also known as Felidhu Atoll is one of the stunning atolls in the maldives.</p>
+        <ul>
+            <li>Geography: The atoll is characterized by a series of beautiful, small islands surrounded by clear, turquoise waters.</li>
+            <li>Area: Vaavu Atoll covers an area of approximately 150 square kilometers.</li>
+            <li>Islands: Vaavu Atoll is home to a number of islands, each offering unique experiences for tourists. </li>
+            <li>Biodiversity: The atoll is known for its rich marine life, making it a popular destination for divers and snorkelers. </li>
+        </ul>
+        <p>When visiting the Vaavu Atoll:</p>
+        <ul>
+            <li>Peaceful Environment: Vaavu Atoll is less crowded and quieter than some other tourist hotspots, making it ideal for those seeking tranquility.</li>
+            <li>Vaavu Atoll is a hidden gem in the Maldives, offering a blend of natural beauty, water sports, and opportunities to experience the local culture. It's a fantastic destination for nature lovers and those seeking a peaceful and immersive island getaway.</li>
+        </ul>
+    </div>
+
+     <!-- Alimatha Island -->
+     <div class="place">
+        <h2>Alimatha Island</h2>
+        <img src="https://pyt-blogs.imgix.net/2020/10/Maldives.jpeg?auto=format&fit=crop&h=400&ixlib=php-3.3.0&w=1500&wpsize=gridlove-cover" alt="Alimatha Island">
+        <p>Located in the Felidhoo Atoll, Alimatha Island is a popular spot for diving, snorkeling, and witnessing the abundant marine life, including sharks and manta rays.</p>
+        <ul>
+            <li>Area: The island is relatively small, covering an area of approximately 25 acres.</li>
+            <li>Architectural Style: Alimatha Island primarily features thatched-roof bungalows and buildings in a tropical island architectural style.</li>
+            <li>Coral Reefs: The surrounding waters are teeming with colorful coral reefs, making it a paradise for snorkeling and diving enthusiasts.</li>
+            <li>Accommodation: The island is home to Alimatha Aquatic Resort, which offers a range of accommodations, including overwater bungalows and beachfront villas.</li>
+        </ul>
+        <p>When visiting the Alimatha Island:</p>
+        <ul>
+            <li>Snorkeling with Mantas: Alimatha is known for its night snorkeling experience with manta rays, a thrilling and unique activity.</li>
+            <li>Bird Watching: Birdwatchers can spot various bird species on the island, making it a haven for nature enthusiasts.</li>
+            <li>Lagoon: Alimatha Island features a beautiful and calm lagoon, making it an ideal spot for swimming.</li>
+        </ul>
+    </div>
+
+    <!-- Fihalhohi Island -->
+    <div class="place">
+        <h2>Fihalhohi Island</h2>
+        <img src="https://images.pexels.com/photos/9394646/pexels-photo-9394646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Fihalhohi Island">
+        <p> This island is known for its laid-back atmosphere and beautiful beaches. It's an excellent choice for budget travelers seeking relaxation and water sports</p>
+        <ul>
+            <li>Location: Fihalhohi Island is part of the South Male Atoll in the Maldives, situated in the Indian Ocean.</li>
+            <li>Size: The island is relatively small, with a land area of approximately 8 acres.</li>
+            <li>Accommodation: Fihalhohi Island is home to a single resort, Fihalhohi Island Resort, which offers various types of accommodation, including overwater bungalows and beachfront villas.</li>
+            <li>Beaches: The island boasts pristine white-sand beaches with clear turquoise waters, making it an ideal destination for sunbathing and swimming.</li>
+        </ul>
+        <p>When visiting the Fihalhohi Island:</p>
+        <ul>
+            <li>Dining: The resort offers several dining options, including international and Maldivian cuisine. Guests can also enjoy themed dinner nights and beachfront dining.</li>
+            <li>Excursions: The resort organizes excursions to nearby islands, fishing trips, and cultural experiences to enhance your stay.</li>
+            <li>Eco-Friendly: Many resorts in the Maldives, including Fihalhohi Island Resort, are committed to eco-friendly practices, such as conservation and responsible tourism.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

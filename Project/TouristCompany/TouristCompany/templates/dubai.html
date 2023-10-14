@@ -1,0 +1,419 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Dubai</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Top Places to Visit in Dubai</h1>
+    </header>
+
+    <!-- Burj Khalifa -->
+    <div class="place">
+        <h2> Burj Khalifa</h2>
+        <img src="https://img.goodfon.com/original/1600x900/7/f4/dubai-uae-burj-khalifa-dubai-oae-burdzh-khalifa-nochnoi-goro.jpg" alt="Burj Khalifa">
+        <p style="color: black;">The iconic Burj Khalifa is the world's tallest building, offering breathtaking panoramic views of the city from its observation decks. It's a must-visit for anyone coming to Dubai.</p>
+<ul style="color: black;">
+    <li>Height: 828 m</li>
+    <li>Floors: 163</li>
+    <li>Architect: Adrian Smith</li>
+    <li>Construction Period: Foundational excavation work commenced in January 2004, and the tower was formally opened on January 4, 2010</li>
+</ul>
+<p style="color: black;">If you're planning to visit the Burj Khalifa, consider the following tips:</p>
+<ul style="color: black;">
+    <li>It's highly recommended to book your tickets for the Burj Khalifa well in advance, especially during peak tourist seasons.</li>
+    <li>The Burj Khalifa has two observation decks, "At The Top" on the 124th and 125th floors and "At The Top SKY" on the 148th floor. Choose your ticket accordingly, as the latter offers a more exclusive experience with fewer visitors and additional amenities.</li>
+    <li>If you choose to use the provided binoculars at the observation decks, you may need to leave a security deposit.</li>
+</ul>
+
+    </div>
+
+    <!-- Dubai mall -->
+    <div class="place">
+        <h2>Dubai mall</h2>
+        <img src="https://www.dubaijunkies.com/wp-content/themes/yootheme/cache/b0/Dubai-Mall-Inside-Wide-View-b0e4b71a.webp" alt="Dubai mall">
+        <p>This enormous shopping and entertainment complex is home to over 1,200 shops, a massive indoor ice rink, an indoor waterfall, and the Dubai Aquarium & Underwater Zoo.</p>
+        <ul>
+            <li>Location: Downtown Dubai, United Arab Emirates.</li>
+            <li>Size: One of the world's largest malls, spanning over 13 million square feet.</li>
+            <li>Opening Date: Opened on November 4, 2008.</li>
+            <li>Events: Hosts special events, promotions, and exhibitions throughout the year.</li>
+        </ul>
+        <p>When visiting the Dubai mall:</p>
+        <ul>
+            <li>The Dubai Mall is massive, so it's easy to get lost. Grab a mall directory or use the mall's mobile app for navigation.</li>
+            <li>Besides shopping and attractions, the mall also has a cinema, an indoor ice rink, and an indoor theme park (KidZania).</li>
+            <li>Some shops and restaurants offer loyalty programs or discounts for tourists, so inquire if they have any special promotions for visitors.</li>
+        </ul>
+    </div>
+
+     <!-- Burj Al Arab -->
+     <div class="place">
+        <h2>Burj Al Arab</h2>
+        <img src="https://wallpapersmug.com/download/1600x900/f4068f/cityscape-aerial-view-burj-al-arab.jpg" alt="Burj Al Arab">
+        <p>Known as the world's only 7-star hotel, the Burj Al Arab is a symbol of luxury and opulence. </p>
+        <ul>
+            <li>Year Established: 1994</li>
+            <li>Height: The Burj Al Arab stands at a height of 321 meters (1,053 feet), making it one of the tallest hotels in the world.</li>
+            <li>Iconic Architecture: The Burj Al Arab is known for its distinctive sail-shaped architecture.</li>
+            <li>Architect: Tom Wright</li>
+        </ul>
+        <p>When visiting the Burj Al Arab:</p>
+        <ul>
+            <li>Dubai is a multicultural city with Islamic traditions. Be respectful of local customs and cultural sensitivities during your visit.</li>
+            <li>The hotel is situated on its own artificial island, connected to the mainland by a private bridge.</li>
+            <li>If you have a dining reservation or plan to enjoy afternoon tea, arrive on time to fully savor the experience. The hotel offers several exquisite dining options, so explore their menus in advance.</li>
+        </ul>
+    </div>
+
+     <!-- Palm Jumeirah -->
+     <div class="place">
+        <h2>Palm Jumeirah</h2>
+        <img src="https://c4.wallpaperflare.com/wallpaper/596/666/349/beach-horizon-dubai-atlantis-the-palm-wallpaper-preview.jpg" alt="Palm Jumeirah">
+        <p>This artificial island shaped like a palm tree is home to luxurious resorts, beautiful beaches, and a variety of dining and entertainment options.</p>
+        <ul>
+            <li>Size: It covers an area of approximately 5.4 square kilometers (2.1 square miles).</li>
+            <li>Year Established: Construction began in 2001 and was largely completed by 2006.</li>
+            <li>Architect:The concept and design for Palm Jumeirah were developed by the architectural firm Nakheel Properties, a subsidiary of Dubai World.</li>
+            <li>Engineering Marvel: The construction of Palm Jumeirah involved significant engineering and environmental considerations, making it one of the world's most impressive engineering feats.</li>
+        </ul>
+        <p>When visiting the Palm Jumeirah:</p>
+        <ul>
+            <li> The Atlantis, The Palm is a major attraction on Palm Jumeirah. You can visit the Aquaventure Waterpark, The Lost Chambers Aquarium, and dine at various restaurants. Day passes are available for non-hotel guests.</li>
+            <li>Water sports and activities such as jet skiing, parasailing, and paddleboarding are available along the Palm's beaches.</li>
+            <li>The Dubai sun can be intense, so use sunscreen, wear a hat, and stay hydrated, especially if you plan to spend time outdoors.</li>
+        </ul>
+    </div>
+
+     <!-- Dubai Marina -->
+     <div class="place">
+        <h2>Dubai Marina</h2>
+        <img src="https://preview.redd.it/dubai-marina-aerial-1600x900-v0-3yzkqeeji69a1.jpg?width=1080&crop=smart&auto=webp&s=2022c331a5b513eb336a0c6eaea81868bb822719" alt="Dubai Marina">
+        <p> A picturesque man-made canal district with a wide range of dining, shopping, and entertainment choices.</p>
+        <ul>
+            <li>Location: Dubai Marina is a man-made canal city located along the Persian Gulf shoreline in Dubai, United Arab Emirates.</li>
+            <li>Yacht Harbor: Dubai Marina is home to a large yacht harbor, offering berths for private yachts and boats. </li>
+            <li>Artificial Canal: It is built around a 3-kilometer-long artificial canal that was designed to create waterfront living and entertainment options.</li>
+            <li>Iconic Architecture: The skyline of Dubai Marina is dominated by impressive skyscrapers and iconic buildings, including the twisted Cayan Tower and the Princess Tower.</li>
+        </ul>
+        <p>When visiting the Dubai Marina:</p>
+        <ul>
+            <li>Enjoy boat tours, water sports, and other recreational activities on the canal and the Persian Gulf..</li>
+            <li>Nearby attractions include the Dubai Marina Mall, Dubai Eye (Ain Dubai) - the world's largest observation wheel, and the Palm Jumeirah.</li>
+            <li>Dubai Marina is well-connected by public transportation, including the Dubai Metro and buses. </li>
+        </ul>
+    </div>
+
+     <!-- Dubai Creek -->
+     <div class="place">
+        <h2>Dubai Creek</h2>
+        <img src="https://cdn-cms.f-static.com/uploads/178487/1600_58bf9ca5852d5.jpg" alt="Dubai Creek">
+        <p>This historic saltwater inlet divides the city into two parts, Deira and Bur Dubai. Explore the creek on a traditional abra (water taxi) and visit the bustling markets of Deira.</p>
+        <ul>
+            <li>Size: Dubai Creek stretches approximately 14 kilometers (8.7 miles) from its mouth at the Persian Gulf to the Ras Al Khor Wildlife Sanctuary inland.</li>
+            <li>Year Established: Dubai Creek has been a vital waterway for centuries, with its history dating back to ancient times. However, it gained prominence as a trading hub in the early 20th century.</li>
+            <li>Modern Development: While retaining its historical charm, the Dubai Creek area has seen significant modern development with the construction of waterfront promenades, hotels, and cultural centers.</li>
+            <li>Economic Importance: While the Creek's role as a trading port has diminished, it still serves as a hub for traditional dhows (wooden cargo boats) and fishing boats. Many businesses, especially in the Deira area, are engaged in trade and commerce.</li>
+        </ul>
+        <p>When visiting the Dubai Creek:</p>
+        <ul>
+            <li>Explore the traditional markets along both sides of the Creek. The Gold Souk and Spice Souk are famous for their unique shopping experiences..</li>
+            <li>Visit historical sites such as the Al Fahidi Historic Neighborhood (Al Bastakiya) and the Heritage Village to learn about Dubai's cultural heritage.</li>
+            <li>To cross from one side of the Creek to the other, you can use traditional abras (water taxis) or modern bridges. </li>
+        </ul>
+    </div>
+
+     <!-- Jumeirah Beach -->
+     <div class="place">
+        <h2>Jumeirah Beach</h2>
+        <img src="https://emoversuae.com/wp-content/uploads/beach.jpg" alt="Jumeirah Beach">
+        <p>A beautiful stretch of sandy shoreline with stunning views of the Arabian Gulf. It's an ideal spot for swimming, sunbathing, or enjoying a leisurely walk along the coast.</p>
+        <ul>
+            <li>Scenic Beauty: The beach is known for its pristine white sand and clear turquoise waters, offering a picturesque view of the Arabian Gulf.</li>
+            <li>Year Established: Jumeirah Beach, a popular beach in Dubai, has been a prominent leisure destination since the early development of Dubai as a tourist hub.</li>
+            <li>Visiting Hours: The beach has designated opening and closing hours, usually from early morning until late evening. Visitors are expected to adhere to these timings.</li>
+            <li>Nightlife: While the beach itself is serene, the nearby Jumeirah Beach Residence (JBR) area boasts a vibrant nightlife scene, with numerous bars and clubs.</li>
+        </ul>
+        <p>When visiting the Jumeirah Beach:</p>
+        <ul>
+            <li>You can find a variety of food and beverage options along the beach, including beachside cafes and restaurants. </li>
+            <li>Visitors can enjoy a variety of water sports and activities at Jumeirah Beach, including jet skiing, parasailing, and paddleboarding.</li>
+            <li>Dubai authorities prioritize the cleanliness and environmental preservation of the beach. Regular clean-up initiatives are conducted to maintain its natural beauty.</li>
+        </ul>
+    </div>
+
+     <!-- The Dubai Frame -->
+     <div class="place">
+        <h2>The Dubai Frame</h2>
+        <img src="https://www.parsherald.com/wp-content/uploads/2021/09/Dubai-Frame-parsherald-1536x864.jpg" alt="The Dubai Frame">
+        <p>An architectural marvel that offers fantastic views of old and new Dubai from its observation deck.</p>
+        <ul>
+            <li>Year Established: The Dubai Frame was officially opened to the public on January 1, 2018.</li>
+            <li>Architect: The Dubai Frame was designed by award-winning architect Fernando Donis, who also designed Dubai's Porsche Design Towers and other notable structures.</li>
+            <li>Design: The Frame is a 150-meter-tall, 93-meter-wide rectangular structure, resembling a giant picture frame.</li>
+            <li>Location: The Dubai Frame is located in Zabeel Park, offering stunning views of both old and new Dubai.</li>
+        </ul>
+        <p>When visiting the Dubai Frame:</p>
+        <ul>
+            <li> Inside the Dubai Frame, there is an immersive museum and exhibition that showcases the city's transformation from a small fishing village to a global metropolis.</li>
+            <li>The Frame is adorned with a striking gold cladding, which adds to its visual appeal.</li>
+        </ul>
+    </div>
+
+     <!-- Dubai Parks and Resorts -->
+     <div class="place">
+        <h2>Dubai Parks and Resorts</h2>
+        <img src="http://maps-dubai.com/img/1200/dubai-parks-and-resorts-map.jpg" alt="Dubai Parks and Resorts">
+        <p>A theme park complex featuring Legoland, Motiongate, Bollywood Parks, and Riverland Dubai for family entertainment.</p>
+        <ul>
+            <li>Year Established: Dubai Parks and Resorts opened to the public on December 18, 2016.</li>
+            <li>Location: It is located in Jebel Ali, Dubai, in close proximity to major attractions and developments.</li>
+            <li>Size: Dubai Parks and Resorts covers an expansive area of approximately 30.6 million square feet.</li>
+            <li>Entertainment Zones: The complex comprises four main theme parks, including Motiongate Dubai, Bollywood Parks Dubai, Legoland Dubai, and Legoland Water Park.</li>
+        </ul>
+        <p>When visiting the Dubai Parks and Resorts:</p>
+        <ul>
+            <li>Motiongate Dubai: This theme park is inspired by Hollywood and features attractions based on popular movie franchises like Shrek, Madagascar, and The Hunger Games.</li>
+            <li>Bollywood Parks Dubai: It celebrates the vibrant world of Bollywood with live entertainment, rides, and attractions inspired by Indian cinema.</li>
+            <li>Legoland Dubai: Designed for families and kids, it offers a wide range of LEGO-themed rides and experiences.</li>
+        </ul>
+    </div>
+
+    <!-- Ski Dubai -->
+    <div class="place">
+        <h2>Ski Dubai</h2>
+        <img src="https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Ski-Dubai-cover-1-1024x444.jpg" alt="Ski Dubai">
+        <p> Located in the Mall of the Emirates, this indoor ski resort allows you to experience snow and winter sports in the middle of the desert.</p>
+        <ul>
+            <li>Year Established: Ski Dubai opened its doors in November 2005.</li>
+            <li>Architect: The resort's architectural design was handled by the Indiana Beach architectural firm.</li>
+            <li>Size: It covers an area of approximately 22,500 square meters (approximately 242,000 square feet).</li>
+            <li>Temperature: Ski Dubai maintains a chilly temperature ranging from -1 to -2 degrees Celsius (30 to 28 degrees Fahrenheit).</li>
+        </ul>
+        <p>When visiting the Ski Dubai:</p>
+        <ul>
+            <li>Ski Dubai provides ski and snowboard equipment rental for visitors.</li>
+            <li> Ski Dubai features a penguin habitat where visitors can meet and interact with Gentoo and King Penguins.</li>
+            <li> It offers five ski slopes of varying difficulty levels, including the world's first indoor black diamond run.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

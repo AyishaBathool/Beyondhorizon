@@ -1,0 +1,379 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Egypt</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Top Places to Visit in Egypt</h1>
+    </header>
+
+    <!-- Giza Pyramids and the Sphinx -->
+    <div class="place">
+        <h2>Giza Pyramids and the Sphinx</h2>
+        <img src="https://cdn.britannica.com/85/99185-050-E1110E5C/Great-Sphinx-Giza-Egypt.jpg" alt="Giza Pyramids and the Sphinx">
+        <p style="color: black;">The Giza Pyramids, including the Great Pyramid of Khufu, are iconic symbols of ancient Egypt. The Great Sphinx of Giza, a colossal limestone statue, is also located in the same complex.</p>
+<ul style="color: black;">
+    <li>Age and History: The Giza Pyramids were constructed during the Old Kingdom period of ancient Egypt, around 4,500 years ago.</li>
+    <li>Architects: The builders and architects responsible for designing and constructing the pyramids remain a subject of historical debate.</li>
+    <li>Age and History: The Sphinx is believed to have been built during the reign of Pharaoh Khafre, around 4,500 years ago.</li>
+    <li>Sphinx Dimensions: It is a massive limestone statue with the body of a lion and the head of a pharaoh.</li>
+</ul>
+<p style="color: black;">If you're planning to visit Giza Pyramids and the Sphinx, consider the following tips:</p>
+<ul style="color: black;">
+    <li>The purpose and symbolism of the Sphinx are subjects of historical speculation, but it is generally considered a guardian of the Giza Plateau.</li>
+    <li> The Sphinx has undergone multiple restoration efforts over the centuries to preserve its structure and features.</li>
+    <li>Visiting the Giza Pyramids and the Sphinx is a once-in-a-lifetime experience, offering a glimpse into the ancient world and the remarkable achievements of the people of that era. </li>
+</ul>
+
+    </div>
+
+    <!-- Luxor -->
+    <div class="place">
+        <h2>Luxor</h2>
+        <img src="https://cdn.britannica.com/08/178108-050-F19D0A38/statues-entrance-Ramses-II-Luxor-temple-complex.jpg" alt="Luxor">
+        <p>Luxor is often referred to as an open-air museum. It's home to incredible archaeological sites, including the Karnak Temple and the Valley of the Kings, where Tutankhamun's tomb was discovered.</p>
+        <ul>
+            <li>Luxor is a city in Egypt located in the Nile Valley, approximately 700 kilometers south of Cairo. It is often referred to as the "world's greatest open-air museum" due to its rich history and archaeological sites.</li>
+            <li>The city of Luxor is part of the larger area of Upper Egypt and is situated on the east bank of the Nile River.</li>
+        </ul>
+        <p>When visiting Luxor:</p>
+        <ul>
+            <li>Karnak Temple: The Karnak Temple Complex is one of the largest religious complexes in the world, with its massive columns, statues, and impressive hieroglyphics.</li>
+            <li>Valley of the Kings: A burial site for many pharaohs, including Tutankhamun. Visitors can explore several tombs.</li>
+            <li>Medinet Habu: A large complex of temples and structures, including the Mortuary Temple of Ramesses III.</li>
+        </ul>
+    </div>
+
+     <!-- Cairo -->
+     <div class="place">
+        <h2>Cairo</h2>
+        <img src="https://www.thoughtco.com/thmb/jyNISAoa-kc3IbQXgv0bTHBP-4I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-200535528-001-5b5ef79146e0fb00256bffbc.jpg" alt="Cairo">
+        <p>The capital city, Cairo, is a bustling metropolis with a blend of ancient and modern attractions. Don't miss the Egyptian Museum, which houses a vast collection of ancient artifacts and treasures.</p>
+        <ul>
+            <li>Cairo is located in the north of Egypt and is the largest city in both Egypt and Africa.</li>
+            <li>It covers an area of approximately 606 square kilometers (234 square miles).</li>
+            <li>Cairo is known for its diverse architectural styles, blending ancient and modern elements.</li>
+            <li>The city's skyline features a mix of historic mosques, palaces, and contemporary high-rises.</li>
+        </ul>
+        <p>When visiting the Cairo:</p>
+        <ul>
+            <li>Khan el-Khalili Market: A bustling bazaar offering traditional crafts, jewelry, spices, and souvenirs.</li>
+            <li>Salah El-Din Citadel: A historic fortress with a commanding view of the city, it is home to mosques, museums, and the impressive Muhammad Ali Mosque.</li>
+            <li>Islamic Art Museum: This museum showcases Islamic art and artifacts from various periods.</li>
+        </ul>
+    </div>
+
+     <!-- Nile River Cruise -->
+     <div class="place">
+        <h2>Nile River Cruise</h2>
+        <img src="https://cdn.tourradar.com/s3/tour/1500x800/164339_a6404765.jpg" alt="Nile River Cruise">
+        <p>Taking a cruise on the Nile River is a great way to see the scenic beauty of Egypt, with stops at historic temples and villages along the way.</p>
+        <ul>
+            <li>Location: The Nile River is the longest river in the world, and a Nile River Cruise typically takes place in Egypt, covering the northern section of the river.</li>
+            <li>Route: Nile River Cruises primarily navigate between Luxor and Aswan, with stops at various historical sites along the way.</li>
+            <li>Duration: Cruises vary in duration, typically ranging from 3 to 7 nights.</li>
+            <li>Architectural Diversity: The cruises often feature modern, well-appointed ships that blend contemporary comfort with traditional Egyptian design elements.</li>
+        </ul>
+        <p>When visiting the Nile River Cruise:</p>
+        <ul>
+            <li>Aswan Dam: A visit to the Aswan High Dam, one of the engineering marvels of the 20th century, is a common part of the itinerary.</li>
+            <li>Philae Island: A stop at Philae Island allows tourists to explore the Temple of Isis, relocated to the island to save it from the rising waters of Lake Nasser.</li>
+            <li>Optional Excursions: Many cruises offer optional excursions, such as hot air balloon rides over Luxor or a trip to the ancient city of Abu Simbel.</li>
+        </ul>
+    </div>
+
+     <!-- Aswan -->
+     <div class="place">
+        <h2>Aswan</h2>
+        <img src="https://tourscanner.com/blog/wp-content/uploads/2023/07/things-to-do-in-Aswan-Egypt.jpg" alt="Aswan">
+        <p>Aswan is known for its beautiful landscapes, including the High Dam and the Philae Temple. It's also a great starting point for visiting Abu Simbel.</p>
+        <ul>
+            <li>Location: Aswan is situated in Upper Egypt, in the southeastern part of the country, near the border with Sudan.</li>
+            <li>Area: The city has an area of approximately 7,730 square kilometers (2,983 square miles).</li>
+            <li>Climate: Aswan experiences a hot desert climate, with extremely high temperatures during the summer months.</li>
+            <li>Aswan is a city rich in history, culture, and natural beauty, making it a must-visit destination for travelers interested in exploring Egypt's southern region.</li>
+        </ul>
+        <p>When visiting the Aswan</p>
+        <ul>
+            <li>Qubbet el-Hawa: An ancient cemetery on the west bank of the Nile, known for its rock-cut tombs and beautiful views of the river.</li>
+            <li>Tombs of the Fatimid Caliphs: Explore the tombs of the Fatimid rulers on the west bank of the Nile.</li>
+            <li>Mausoleum of Aga Khan: This stunning mausoleum is the final resting place of Aga Khan III and offers beautiful views of the Nile.</li>
+        </ul>
+    </div>
+
+     <!-- Abu Simbel -->
+     <div class="place">
+        <h2>Abu Simbel</h2>
+        <img src="https://cdn.britannica.com/49/189749-050-EDADDEC0/Great-Temple-of-Ramses-II-temples-larger.jpg" alt="Abu Simbel">
+        <p>These twin temples were relocated in a massive UNESCO operation to save them from being submerged by Lake Nasser. They are dedicated to Ramses II and his queen Nefertari.</p>
+        <ul>
+            <li>Location: Abu Simbel is an archaeological site in southern Egypt, near the border with Sudan. It is situated on the western bank of Lake Nasser.</li>
+            <li>Area: The Abu Simbel complex comprises two massive rock temples carved into the mountainside. It covers an area of approximately 8,460 square meters.</li>
+            <li>Architectural Significance: The two temples at Abu Simbel are remarkable for their colossal statues, intricate carvings, and their relocation in the 1960s to save them from being submerged by the rising waters of Lake Nasser.</li>
+            <li>Historical Significance: The temples were built during the reign of Pharaoh Ramses II (1279-1213 BC) and are dedicated to the gods Amun, Ra-Horakhty, Ptah, and the deified Pharaoh himself.</li>
+        </ul>
+        <p>When visiting the Abu Simbel:</p>
+        <ul>
+            <li>Colossal Statues: The massive statues of Ramses II at the entrance are a striking feature of the Great Temple.</li>
+            <li>Nefertari's Temple: Explore the Small Temple dedicated to Nefertari, renowned for its well-preserved artwork.</li>
+            <li>Philae Island: Combine your visit with a trip to Philae Island, known for its temple dedicated to the goddess Isis.</li>
+        </ul>
+    </div>
+
+     <!-- Siwa Oasis -->
+     <div class="place">
+        <h2>Siwa Oasis</h2>
+        <img src="https://static1.thetravelimages.com/wordpress/wp-content/uploads/2022/09/Siwa-Oasis-in-Egypt.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5" alt="Siwa Oasis">
+        <p>Siwa Oasis is a peaceful desert retreat in Egypt's Western Desert. It's known for its unique culture, salt lakes, and the Temple of the Oracle.</p>
+        <ul>
+            <li>Siwa Oasis covers an area of approximately 80 square kilometers.</li>
+            <li>It is situated in the northwestern part of Egypt, close to the Libyan border.</li>
+            <li>The oasis is characterized by lush date palm groves, freshwater springs, and salt lakes.</li>
+            <li>The area is renowned for its stunning sunsets and sunrises.</li>
+        </ul>
+        <p>When visiting the Siwa Oasis:</p>
+        <ul>
+            <li>Cleopatra's Bath is a natural spring with historical significance, believed to be where Cleopatra once bathed.</li>
+            <li>The Temple of the Oracle, known as the Temple of Amun, is a major historical site.</li>
+            <li>The Mountain of the Dead is an archaeological site with ancient rock tombs.</li>
+        </ul>
+    </div>
+
+     <!-- Red Sea Resorts -->
+     <div class="place">
+        <h2>Red Sea Resorts</h2>
+        <img src="https://www.thomascook.com/.imaging/default/dam/legacy/compressed-jpg/red-sea-hero1.jpg/jcr:content.jpg" alt="Red Sea Resorts">
+        <p>Egypt's Red Sea coast is famous for its crystal-clear waters and fantastic diving opportunities. Sharm El Sheikh, Hurghada, and Dahab are popular resort destinations.</p>
+        <ul>
+            <li>The Red Sea is a seawater inlet of the Indian Ocean located between Africa and the Arabian Peninsula.</li>
+            <li>The Red Sea coastline spans several countries, including Egypt, Saudi Arabia, Jordan, and Eritrea.</li>
+            <li>Egypt is a major destination for Red Sea resorts, with cities like Sharm El Sheikh, Hurghada, and Marsa Alam along its eastern coast.</li>
+            <li>Sustainable and eco-friendly architectural practices are gaining popularity in the region to preserve the natural beauty of the area.</li>
+        </ul>
+        <p>When visiting the Red Sea Resorts:</p>
+        <ul>
+            <li>Luxor and Karnak Temples: These temples are easily accessible from some Red Sea resorts and are significant archaeological sites.</li>
+            <li>Glass-Bottom Boat Tours: These tours provide a unique perspective of the underwater world for those who prefer to stay dry.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

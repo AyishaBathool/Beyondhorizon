@@ -1,0 +1,343 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Germany</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Top Places to Visit in Germany</h1>
+    </header>
+
+    <!-- Berlin -->
+    <div class="place">
+        <h2> Berlin</h2>
+        <img src="https://www.germany.travel/media/redaktion/staedte_kultur_content/Berlin_Brandenburger_Tor_im_Sonnenuntergang_Leitmotiv_German_Summer_Cities.jpg" alt="Berlin">
+        <p style="color: black;">The capital city offers a rich blend of history, culture, and modernity. Must-visit attractions include the Brandenburg Gate, Berlin Wall Memorial, Museum Island, and Checkpoint Charlie.</p>
+<ul style="color: black;">
+    <li>Berlin is the largest city in Germany, covering an area of approximately 891 square kilometers.</li>
+    <li>It is located in northeastern Germany and is situated in the heart of Europe.</li>
+    <li>Berlin boasts a mix of architectural styles, from historic buildings to modern glass structures.</li>
+    <li>Berlin is a dynamic city that seamlessly blends its historical significance with a vibrant contemporary culture, offering a wide array of attractions and experiences for tourists.</li>
+</ul>
+<p style="color: black;">If you're planning to visit the Berlin, consider the following tips:</p>
+<ul style="color: black;">
+    <li>The Berlin Wall, which divided the city during the Cold War, is a significant historical landmark.</li>
+    <li>Museumsinsel (Museum Island) is a UNESCO World Heritage site, home to several world-class museums, including the Pergamon Museum and the Neues Museum.</li>
+    <li>The Berlin Philharmonic is one of the world's leading orchestras, and the Berlin State Opera is renowned for its performances.</li>
+</ul>
+
+    </div>
+
+    <!-- Munich -->
+    <div class="place">
+        <h2>Munich</h2>
+        <img src="https://images.unsplash.com/photo-1554222413-74348b32d66e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Munich">
+        <p> Known for its Oktoberfest celebrations, Munich is a city with a strong Bavarian culture. Explore the Nymphenburg Palace, Marienplatz, and enjoy the local beer gardens.</p>
+        <ul>
+            <li>Munich is the capital and largest city of the state of Bavaria in Germany.</li>
+            <li>The city covers an area of approximately 310.43 square kilometers (119.6 square miles).</li>
+            <li>Munich boasts a mix of architectural styles, including historic Gothic, Baroque, and neoclassical buildings, as well as modern and contemporary structures.</li>
+            <li>Munich is a vibrant city that offers a blend of history, culture, and modernity, making it a top destination for travelers interested in exploring Bavarian culture and history.</li>
+        </ul>
+        <p>When visiting the Munich:</p>
+        <ul>
+            <li>Marienplatz: Munich's central square and a hub of activity with the iconic Glockenspiel in the New Town Hall.</li>
+            <li>Nymphenburg Palace: A stunning Baroque palace and gardens that served as the summer residence for Bavarian rulers.</li>
+            <li>Frauenkirche: A twin-towered cathedral with a distinctive onion dome, offering panoramic views from its tower.</li>
+        </ul>
+    </div>
+
+     <!-- Neuschwanstein Castle -->
+     <div class="place">
+        <h2>Neuschwanstein Castle</h2>
+        <img src="https://images.unsplash.com/photo-1557067175-db3159d938ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Neuschwanstein Castle">
+        <p>This fairy-tale castle in Bavaria is one of the most famous in the world and served as the inspiration for Disney's Cinderella Castle.</p>
+        <ul>
+            <li>Neuschwanstein Castle is located in the Bavarian Alps near the town of Füssen, in the southwest of Bavaria, Germany.</li>
+            <li>The castle was designed by the Bavarian stage designer Christian Jank and realized by architect Eduard Riedel.</li>
+            <li>Construction began in 1869 and was never fully completed during Ludwig's lifetime.</li>
+            <li>The castle was built in the Romanesque Revival style, inspired by the Middle Ages.</li>
+        </ul>
+        <p>When visiting the Neuschwanstein Castle:</p>
+        <ul>
+            <li>Neuschwanstein Castle is a popular subject for photographers, particularly during the changing seasons and the snowy winters.</li>
+            <li>There are several myths and legends associated with King Ludwig II and Neuschwanstein Castle.</li>
+        </ul>
+    </div>
+
+     <!-- Cologne -->
+     <div class="place">
+        <h2>Cologne</h2>
+        <img src="https://a.cdn-hotels.com/gdcs/production5/d1278/12a1272e-11e4-44e8-848d-d89a950a8bf7.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="Cologne">
+        <p>The city is famous for its stunning Cologne Cathedral, a UNESCO World Heritage site. Take a stroll along the Rhine River and explore the Old Town.</p>
+        <ul>
+            <li>Cologne is situated on the banks of the Rhine River in the western part of Germany.</li>
+            <li>It covers an area of approximately 405 square kilometers (156 square miles).</li>
+            <li>Cologne is renowned for its iconic Cologne Cathedral (Kölner Dom), a stunning example of High Gothic architecture and a UNESCO World Heritage site.</li>
+            <li>The city is known for its mix of historic and modern architecture, with both traditional and contemporary buildings.</li>
+        </ul>
+        <p>When visiting the Cologne:</p>
+        <ul>
+            <li> Chocolate Museum (Schokoladenmuseum): Learn about the history of chocolate and enjoy tastings.</li>
+            <li>The Old Town (Altstadt): Explore the charming streets, colorful houses, and traditional German pubs.</li>
+            <li>The Great St. Martin Church: Another beautiful example of Romanesque architecture.</li>
+        </ul>
+    </div>
+
+     <!-- The Romantic Road -->
+     <div class="place">
+        <h2>The Romantic Road</h2>
+        <img src="https://smapse.com/storage/2020/10/converted/895_0_romantic-road.jpg" alt="The Romantic Road">
+        <p>  This scenic route takes you through charming Bavarian towns and beautiful countryside. Highlights include Rothenburg ob der Tauber and Würzburg.</p>
+        <ul>
+            <li>It passes through the beautiful regions of Franconia and Swabia, known for their charming villages and scenic landscapes.</li>
+            <li>The route offers a diverse mix of historical towns, rolling hills, dense forests, and stunning Alpine scenery. </li>
+            <li>The road passes near the Black Forest and the Bavarian Alps, making it ideal for nature and outdoor enthusiasts.</li>
+            <li>The route is characterized by well-preserved medieval towns and villages.</li>
+        </ul>
+        <p>When visiting The Romantic Road:</p>
+        <ul>
+            <li>Visit the Residenz Palace in Würzburg, an example of Baroque architecture.</li>
+            <li>Explore the medieval town of Rothenburg ob der Tauber, known for its town wall and charming streets.</li>
+            <li>Experience the enchanting beauty of the Allgäu region with its rolling hills and picturesque landscapes. </li>
+        </ul>
+    </div>
+
+     <!-- Hamburg -->
+     <div class="place">
+        <h2>Hamburg</h2>
+        <img src="https://a.cdn-hotels.com/gdcs/production19/d1430/c53e41bd-1e9b-4c80-b15b-01e81b1c4679.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="Hamburg">
+        <p>As a major port city, Hamburg offers a mix of maritime history, modern architecture, and lively nightlife. Don't miss the Miniatur Wunderland, one of the world's largest model railways.</p>
+        <ul>
+            <li>Hamburg covers an area of approximately 755 square kilometers and is home to numerous neighborhoods, each with its own unique character.</li>
+            <li>Population: With a population of over 1.8 million, Hamburg is one of the most populous cities in Germany.</li>
+            <li>Location: Hamburg is situated on the Elbe River, close to the North Sea, making it an important port city.</li>
+            <li>Port of Hamburg: It is home to one of the largest and busiest ports in Europe, offering boat tours and maritime museums for visitors.</li>
+        </ul>
+        <p>When visiting the Hamburg:</p>
+        <ul>
+            <li>Reeperbahn: Hamburg's famous entertainment district is known for its nightlife, theaters, and bars, and is a popular destination for those seeking nightlife and entertainment.</li>
+            <li> St. Michael's Church: The impressive baroque church, known as "Michel," offers panoramic views from its tower.</li>
+            <li>Miniatur Wunderland: One of the world's largest model railway exhibitions, featuring intricate miniatures of various scenes and countries.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,323 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Australia</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Top Places to Visit in Australia</h1>
+    </header>
+
+    <!-- Sydney, New South Wales -->
+    <div class="place">
+        <h2> Sydney, New South Wales</h2>
+        <img src="https://static.nationalgeographic.co.uk/files/styles/image_3200/public/sydneyharbour.webp?w=1450&h=816" alt="Sydney, New South Wales">
+        <p style="color: black;">Sydney hosts a variety of events, such as the Sydney Festival, Vivid Sydney light festival, and the famous New Year's Eve fireworks.</p>
+<ul style="color: black;">
+    <li>Location: Sydney is the largest and most populous city in Australia, located on the east coast of the continent.</li>
+    <li>Landmarks: Sydney is famous for its iconic landmarks, including the Sydney Opera House and Sydney Harbour Bridge.</li>
+    <li>Climate: Sydney enjoys a mild and temperate climate, with warm summers and mild winters. It's a great destination year-round.</li>
+    <li>Sydney has a lot to offer, whether you're interested in cultural experiences, outdoor adventures, or simply relaxing on its beautiful beaches. It's a city that combines natural beauty with a vibrant urban lifestyle, making it a must-visit destination for tourists.</li>
+</ul>
+<p style="color: black;">If you're planning to visit the Sydney, New South Wales, consider the following tips:</p>
+<ul style="color: black;">
+    <li>Shop at major retail areas like Pitt Street Mall or explore unique boutiques in neighborhoods like Paddington and Newtown.</li>
+    <li>Enjoy bushwalking in the Royal National Park, kayaking on Sydney Harbour, or hiking in the Blue Mountains.</li>
+    <li>Sydney's beaches are great for surfing, and there are numerous surf schools for beginners.</li>
+</ul>
+
+    </div>
+
+    <!-- Great Barrier Reef, Queensland -->
+    <div class="place">
+        <h2>Great Barrier Reef, Queensland</h2>
+        <img src="https://lp-cms-production.imgix.net/2020-09/shutterstockRF_549545044.jpg?auto=format&w=1440&h=810&fit=crop&q=75 1x, https://lp-cms-production.imgix.net/2020-09/shutterstockRF_549545044.jpg?auto=format&w=1440&h=810&fit=crop&q=75 2x" alt="Great Barrier Reef, Queensland">
+        <p> The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system and a UNESCO World Heritage site. It's a popular destination for tourists from around the globe</p>
+        <ul>
+            <li>Location: The Great Barrier Reef is situated off the northeastern coast of Australia in the Coral Sea.</li>
+            <li>Size: It spans over 2,300 kilometers (1,430 miles) and covers an area of approximately 344,400 square kilometers (133,000 square miles).</li>
+            <li>Biodiversity: It is home to an incredible diversity of marine life, including thousands of species of fish, coral, and other marine organisms.</li>
+            <li>Activities: Tourists can engage in various activities, such as snorkeling, scuba diving, sailing, and boat tours.</li>
+        </ul>
+        <p>When visiting the Great Barrier Reef, Queensland:</p>
+        <ul>
+            <li>Whitsunday Islands: The Whitsunday Islands, part of the reef, are known for their stunning white sandy beaches.</li>
+            <li>Indigenous Culture: Learn about the Indigenous cultures and their connection to the reef through cultural tourEcosystems: The reef features diverse ecosystems, including coral gardens, seagrass beds, and mangrove forests.Frauenkirche: A twin-towered cathedral with a distinctive onion dome, offering panoramic views from its tower.</li>
+        </ul>
+    </div>
+
+     <!-- Uluru-Kata Tjuta National Park, Northern Territory -->
+     <div class="place">
+        <h2>Uluru-Kata Tjuta National Park, Northern Territory</h2>
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/45/d6/d0/uluru.jpg?w=1200&h=-1&s=1" alt="Uluru-Kata Tjuta National Park, Northern Territory">
+        <p>This fairy-tale castle in Bavaria is one of the most famous in the world and served as the inspiration for Disney's Cinderella Castle.</p>
+        <ul>
+            <li>Location: Uluru-Kata Tjuta National Park is located in the southern part of the Northern Territory, approximately 335 kilometers southwest of Alice Springs.</li>
+            <li>Size: The park covers an area of 1,325 square kilometers.</li>
+            <li>Landmarks: The park features two iconic natural landmarks, Uluru (Ayers Rock) and Kata Tjuta (The Olgas).</li>
+            <li>Cultural Significance: The area is of immense cultural significance to the Anangu people, the traditional owners of the land.</li>
+        </ul>
+        <p>When visiting the Uluru-Kata Tjuta National Park, Northern Territory:</p>
+        <ul>
+            <li>Uluru's Changing Colors: Uluru's appearance changes throughout the day due to the play of light and shadow, making it a stunning sight at sunrise and sunset.</li>
+            <li>Tjukurpa: The Tjukurpa (Dreamtime) stories of the Anangu people are depicted through rock art, which can be seen in various areas of the park.</li>
+        </ul>
+    </div>
+
+     <!-- Melbourne, Victoria -->
+     <div class="place">
+        <h2>Melbourne, Victoria</h2>
+        <img src="https://www.visitmelbourne.com/-/media/images/melbourne/things-to-do/outdoor-activities/cycling-southbank_mel_r_132438_1600x900.jpg?ts=20170901490121&c=product&cw=1600&ch=1200" alt=Melbourne, Victoria">
+        <p>Melbourne, the capital of Victoria, is a vibrant and diverse city with much to offer tourists. </p>
+        <ul>
+            <li>Location: Melbourne is located in southeastern Australia, in the state of Victoria.</li>
+            <li>Population: It is the second-most populous city in Australia, after Sydney.</li>
+            <li>Cultural Diversity: Melbourne is known for its cultural diversity, with a rich mix of cultures and languages.</li>
+            <li>Climate: The city experiences a temperate climate, with four distinct seasons - summer, autumn, winter, and spring.</li>
+        </ul>
+        <p>When visiting the Melbourne, Victoria:</p>
+        <ul>
+            <li>Café Culture: The city is renowned for its coffee culture, and you can find excellent cafes throughout Melbourne.</li>
+            <li>Yarra River: The Yarra River flows through Melbourne, offering opportunities for river cruises and scenic walks.</li>
+            <li>Chinatown: Melbourne's Chinatown is one of the oldest in the world, offering a wide range of Asian cuisine.</li>
+        </ul>
+    </div>
+
+     <!-- Tasmania -->
+     <div class="place">
+        <h2>Tasmania</h2>
+        <img src="https://images.unsplash.com/photo-1627110466624-436b91b5d20b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Tasmania">
+        <p> Tasmania is an island state of Australia located to the south of the mainland. It offers a diverse range of natural beauty and cultural experiences for tourists. </p>
+        <ul>
+            <li>Geographical Location: Tasmania is an island state of Australia, separated from the mainland by the Bass Strait.</li>
+            <li>Island Size: Tasmania is approximately 26,410 square miles (68,401 square kilometers) in size, making it the 26th largest island in the world. </li>
+            <li>Cradle Mountain: Cradle Mountain is a popular destination for hikers and nature lovers, known for its stunning landscapes and walking trails.</li>
+            <li>Dark Mofo Festival: Dark Mofo, held annually in Hobart, is an arts and music festival known for its intriguing and immersive experiences.</li>
+        </ul>
+        <p>When visiting Tasmania:</p>
+        <ul>
+            <li>Bay of Fires: Enjoy the stunning white sandy beaches and clear waters of the Bay of Fires on the east coast.</li>
+            <li>Maria Island: This island is a sanctuary for wildlife, featuring convict history and serene landscapes, accessible by ferry.</li>
+            <li>Wine and Food: Tasmania is a burgeoning food and wine destination, with renowned wineries, fresh seafood, and gourmet experiences.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

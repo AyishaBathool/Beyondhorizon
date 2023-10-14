@@ -1,0 +1,440 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Paris</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    
+    <header>
+        <h1>Top Places to Visit in Paris</h1>
+    </header>
+
+    <!-- Eiffel Tower -->
+    <div class="place">
+        <h2>Eiffel Tower</h2>
+        <img src="https://www.cslbehring.de/-/media/cslb-germany2/cslb-germany/story-images/eiffelturm.jpg?h=900&iar=0&w=1600&cropregion=0,0,1600,900&hash=59E6F69EBF6D0014206320296A374047" alt="Eiffel Tower">
+        <p style="color: black;">The Eiffel Tower is one of the most iconic landmarks in the world and a symbol of Paris. This iron lattice tower stands on the Champ de Mars near the Seine River and was completed in 1889 as part of the 1889 World's Fair, held in Paris to celebrate the 100th anniversary of the French Revolution. It was designed by engineer Gustave Eiffel and is named after him.</p>
+<ul style="color: black;">
+    <li>Height: 330 meters (1,083 feet)</li>
+    <li>Number of Visitors Annually: Approximately 7 million</li>
+    <li>Architect: Gustave Eiffel</li>
+    <li>Construction Period: 1887-1889</li>
+</ul>
+<p style="color: black;">If you're planning to visit the Eiffel Tower, consider the following tips:</p>
+<ul style="color: black;">
+    <li>Book your tickets in advance to avoid long queues.</li>
+    <li>Visit during sunset for stunning views of Paris.</li>
+    <li>Explore all three levels, including the observation deck on the top.</li>
+</ul>
+
+    </div>
+
+    <!-- Louvre Museum -->
+    <div class="place">
+        <h2>Louvre Museum</h2>
+        <img src="https://uhdwallpapers.org/uploads/converted/18/04/04/louvre-pyramid-and-museum-1600x900_59494-mm-90.webp" alt="Louvre Museum">
+        <p>The Louvre Museum, or Musee du Louvre, is one of the world's largest and most visited art museums. It is located in the Louvre Palace, a historic monument in the center of Paris. The museum is famous for its extensive collection of art and historical artifacts, including Leonardo da Vinci's "Mona Lisa." It is a must-visit destination for art and history enthusiasts.</p>
+        <ul>
+            <li>Year Established: 1793</li>
+            <li>Number of Artworks: Over 38,000</li>
+            <li>Notable Artworks: "Mona Lisa," "Venus de Milo," "Winged Victory of Samothrace"</li>
+            <li>Architect: Various, including I. M. Pei</li>
+        </ul>
+        <p>When visiting the Louvre Museum:</p>
+        <ul>
+            <li>Plan your visit in advance and allocate sufficient time to explore the vast collection.</li>
+            <li>Consider using an audio guide to enhance your museum experience.</li>
+            <li>Don't miss the opportunity to see the iconic "Mona Lisa" painting.</li>
+        </ul>
+    </div>
+
+     <!-- Notre-Dame Cathedral -->
+     <div class="place">
+        <h2>Notre-Dame Cathedral</h2>
+        <img src="https://images.wallpaperscraft.com/image/single/notre_dame_notre_dame_de_paris_paris_59255_1600x900.jpg" alt="Notre-Dame Cathedral">
+        <p>This masterpiece of Gothic architecture is known for its stunning stained glass windows, intricate sculptures, and historical significance.</p>
+        <ul>
+            <li>Year Established: 1345</li>
+            <li>Function: Cathedral</li>
+            <li>Architectural style: French Gothic architecture</li>
+            <li>Architect: Maurice de Sully, bishop of Paris</li>
+        </ul>
+        <p>When visiting the Notre-Dame Cathedral:</p>
+        <ul>
+            <li>Check the cathedral's official website for its opening hours, as they may vary by season and special events.</li>
+            <li>Explore the crypt below the cathedral, which houses archaeological remains and offers insights into the cathedral's history.</li>
+            <li>You can climb to the top for a view of the Seine River and the city.</li>
+        </ul>
+    </div>
+
+     <!-- Montmartre and the Sacre-Coeur Basilica -->
+     <div class="place">
+        <h2>Montmartre and the Sacre-Coeur Basilica</h2>
+        <img src="https://images.pexels.com/photos/4324002/pexels-photo-4324002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Montmartre and the Sacre-Coeur Basilica">
+        <p>Montmartre is a charming hilltop neighborhood known for its artistic history.</p>
+        <ul>
+            <li>Year Established: 1875</li>
+            <li>Function: Church</li>
+            <li>Materials: Travertine stone</li>
+            <li>Architect: Paul Abadie</li>
+        </ul>
+        <p>When visiting the Montmartre and the Sacre-Coeur Basilica:</p>
+        <ul>
+            <li>Montmartre is easily accessible by the Paris Metro. Consider using public transportation to avoid parking and traffic issues.</li>
+            <li>Explore the quaint boutiques and souvenir shops for unique gifts and keepsakes.</li>
+            <li>Appreciate the architectural beauty of the basilica, with its pristine white domes and Romano-Byzantine style. The interior features stunning mosaics.</li>
+        </ul>
+    </div>
+
+     <!-- Champs-Elysees and Arc de Triomphe -->
+     <div class="place">
+        <h2>Champs-Elysees and Arc de Triomphe</h2>
+        <img src="https://www.ohlalafrenchfanfan.com/wp-content/uploads/2022/11/Ohlala-by-french-fanfan-arc-de-triomphe-place-charles-degaulle-paris-1.jpg" alt="Champs-Elysees and Arc de Triomphe">
+        <p> Stroll along the famous Champs-Elysees avenue, lined with shops and cafes, and reach the majestic Arc de Triomphe, an emblem of French patriotism.</p>
+        <ul>
+            <li>Year Established: 1836</li>
+            <li>Architectural style: Neoclassical Architecture</li>
+            <li>Speciaity:  Honors those who fought and died for France during the French Revolution and the Napoleonic Wars</li>
+            <li>Architect: Andre Le Notre</li>
+        </ul>
+        <p>When visiting the Champs-Elysees and Arc de Triomphe:</p>
+        <ul>
+            <li>Along Champs-Elysees, you'll also find other landmarks like the Grand Palais and Petit Palais, as well as theaters and cinemas.</li>
+            <li>Consider visiting the Champs-Elysees and the Arc de Triomphe at night when they are beautifully illuminated, creating a different ambiance.</li>
+            <li>Enjoy your visit to Champs-Elysees and the Arc de Triomphe, and take in the rich history and culture they represent in the heart of Paris.</li>
+        </ul>
+    </div>
+
+     <!-- Seine River Cruise -->
+     <div class="place">
+        <h2>Seine River Cruise</h2>
+        <img src="https://tourscoop.com/wp-content/uploads/2023/07/the-river-seine-in-paris-at-dawn-2022-12-17-03-46-19-utc-e1689693806799-1600x900.jpg" alt="Seine River Cruise">
+        <p>Take a romantic cruise along the Seine River to admire Paris's landmarks, including the Eiffel Tower, Notre-Dame, and the Louvre, beautifully illuminated at night.</p>
+        <ul>
+            <li>Cruise Options: Various cruise companies offer different types of cruises, including daytime, evening, and dinner cruises. Choose one that suits your preferences.</li>
+            <li>Duration: The duration of Seine River Cruises can vary, typically ranging from one hour for a basic cruise to longer durations for dinner cruises with meals</li>
+            <li>Historical Bridges: Pass under historic bridges like Pont Neuf, Pont Alexandre III, and Pont des Arts, each with unique architectural styles.</li>
+            <li>UNESCO World Heritage: The banks of the Seine, a UNESCO World Heritage Site, showcase Parisian architecture and urban design.</li>
+        </ul>
+        <p>When visiting the Seine River Cruise:</p>
+        <ul>
+            <li>Enjoy a romantic ambiance, especially during evening cruises when Paris is beautifully illuminated.</li>
+            <li>Bateaux Mouches is a popular operator offering daytime and evening cruises, providing diverse sightseeing options.</li>
+            <li>Guided Seine River cruises provide informative commentary about the landmarks, enriching the cultural experience.</li>
+        </ul>
+    </div>
+
+     <!-- Catacombs of Paris -->
+<div class="place">
+    <h2>Catacombs of Paris</h2>
+    <img src="https://ychef.files.bbci.co.uk/1600x900/p0107tfz.webp" alt="Catacombs of Paris">
+    <p style="color: black;">The Catacombs of Paris are an underground ossuary in the heart of Paris, France. This labyrinthine network of tunnels houses the skeletal remains of approximately six million people, moved there to address the city's overflowing cemeteries during the 18th century.</p>
+    <ul style="color: black;">
+        <li>Location: The Catacombs are located beneath the streets of Paris, especially in the Montparnasse area.</li>
+        <li>History: The Catacombs hold historical significance as they were established in the late 18th century. Their purpose was to address public health and space issues associated with overcrowded cemeteries.</li>
+        <li>Size: The Catacombs cover an expansive area, and only a small portion is open to the public.</li>
+    </ul>
+    <p style="color: black;">When visiting the Catacombs of Paris, here are some things to keep in mind:</p>
+    <ul style="color: black;">
+        <li>Guided Tours: Visitors can explore the Catacombs through guided tours, which provide historical insights into this unique underground site.</li>
+        <li>Respectful Visit: The Catacombs are a place of respect and remembrance. Visitors should be mindful and follow any guidelines or rules provided during their visit.</li>
+        <li>Prepare for Walking: Wear comfortable shoes and be prepared for walking, as the underground passages can be extensive.</li>
+    </ul>
+</div>
+
+
+     <!-- Palace of Versailles -->
+     <div class="place">
+        <h2>Palace of Versailles</h2>
+        <img src="https://static.neweuropetours.eu/wp-content/uploads/2018/09/versailles-880359-1920-1600x900.jpg" alt="Palace of Versailles">
+        <p>A short train ride from Paris, the Palace of Versailles is a grand royal residence known for its opulent architecture, stunning gardens, and Hall of Mirrors.</p>
+        <ul>
+            <li>Architectural style: Classicalism and Baroque</li>
+            <li>Art Collections: The palace houses an extensive collection of art and historical artifacts, including paintings, sculptures, and decorative arts from various periods.</li>
+            <li>UNESCO World Heritage: In 1979, the Palace of Versailles, along with its gardens, was designated a UNESCO World Heritage Site in recognition of its cultural and historical significance.</li>
+            <li>Architect: Louis Le Vau, Andre Le Notre, and Charles Le Brun</li>
+        </ul>
+        <p>When visiting the Palace of Versailles:</p>
+        <ul>
+            <li>Consider visiting Marie Antoinette's Estate, a separate section of Versailles with its own attractions, including the Trianon Palaces and the charming Queen's Hamlet.</li>
+            <li>The Hall of Mirrors is a highlight; take your time to admire its opulence and history. Look out the windows for stunning views of the gardens.</li>
+            <li>Explore the extensive gardens and park. Rent a bicycle or take a leisurely stroll. The Musical Fountain Show and Musical Gardens are seasonal attractions worth checking.</li>
+        </ul>
+    </div>
+
+     <!-- Musee d'Orsay -->
+     <div class="place">
+        <h2>Musee d'Orsay</h2>
+        <img src="https://images.musement.com/cover/0002/09/musee-d-orsay_header-108714.jpeg?q=30&fit=crop&auto=format&w=1441&h=400" alt="Musee d'Orsay">
+        <p>Housed in a former railway station, this museum showcases an impressive collection of Impressionist and Post-Impressionist masterpieces, including works by Monet, Van Gogh, and Degas.</p>
+        <ul>
+            <li>Year Established: 1986</li>
+            <li>Number of Artworks:  Over 6,000 paintings, sculptures, and decorative art objects.</li>
+            <li>Notable Artworks: Works of Monet, Van Gogh, Degas, Renoir, and more.</li>
+            <li>Famous works: "Starry Night Over the Rhone," "Water Lilies," "The Dance Class," and "Whistler's Mother."</li>
+        </ul>
+        <p>When visiting the Musee d'Orsay:</p>
+        <ul>
+            <li>Check if there are any temporary exhibitions or special events happening during your visit.</li>
+            <li>Musee d'Orsay has on-site dining options where you can take a break and enjoy a meal or a cup of coffee.</li>
+            <li>Remember to immerse yourself in the world of Impressionism and Post-Impressionism while enjoying your visit to Musee d'Orsay, and take your time exploring the remarkable collection of art on display.</li>
+        </ul>
+    </div>
+
+     <!-- Luxembourg Gardens -->
+     <div class="place">
+        <h2>Luxembourg Gardens</h2>
+        <img src="https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX57118659.jpg" alt="Luxembourg Gardens">
+        <p>These beautifully manicured gardens offer a peaceful escape in the heart of Paris. You can stroll through the lush gardens, visit the Luxembourg Palace, and watch the sailboats in the fountain.</p>
+        <ul>
+            <li>Area: Covering 25 hectares, it's known for its stunning French formal and English informal gardens.</li>
+            <li>Features: Tree-lined promenades, fountains, statues, and flowerbeds.</li>
+            <li>Central Feature: Grand Basin</li>
+            <li>History: Originally designed for Marie de' Medici, the widow of King Henry IV.</li>
+        </ul>
+        <p>When visiting the Luxembourg Gardens:</p>
+        <ul>
+            <li>Featured in literature and art, including works by Victor Hugo and Henri Cartier-Bresson.</li>
+            <li>A place to experience the beauty and serenity of Parisian gardens.</li>
+            <li>The Medici Fountain, inspired by Italian Renaissance design, is a prominent feature.</li>
+        </ul>
+    </div>
+
+    <!-- Pantheon -->
+    <div class="place">
+        <h2>Pantheon</h2>
+        <img src="https://www.agoda.com/wp-content/uploads/2019/01/Paris-Pantheon-architecture.jpg" alt="Pantheon">
+        <p>A neoclassical mausoleum, the Pantheon is the final resting place of many notable French figures, including Voltaire, Rousseau, and Victor Hugo. The interior is adorned with stunning frescoes and a central dome.</p>
+        <ul>
+            <li>Historical Significance: Built in the 18th century, the Pantheon is a neoclassical mausoleum.</li>
+            <li>Original Purpose: Originally constructed as a church dedicated to Saint Genevieve.</li>
+            <li>Notable Burials: Houses the remains of prominent figures like Voltaire, Rousseau, and Victor Hugo.</li>
+            <li>Location: Situated in the Latin Quarter of Paris's 5th arrondissement.</li>
+        </ul>
+        <p>When visiting the Pantheon:</p>
+        <ul>
+            <li>The Pantheon remains an enduring symbol of France's rich cultural and intellectual heritage.</li>
+            <li> The dome offers a panoramic view of Paris when visitors climb to the top..</li>
+            <li>Visitors can explore the interior of the Pantheon, including its crypt.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

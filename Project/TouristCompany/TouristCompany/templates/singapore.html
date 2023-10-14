@@ -1,0 +1,419 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Singapore</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Top Places to Visit in Singapore</h1>
+    </header>
+
+    <!-- Marina Bay Sands -->
+    <div class="place">
+        <h2> Marina Bay Sands</h2>
+        <img src="https://4kwallpapers.com/images/walls/thumbs_3t/2113.jpg" alt="Marina Bay Sands">
+        <p style="color: black;">This iconic hotel and entertainment complex is famous for its stunning rooftop infinity pool, observation deck with panoramic views of the city, and a wide range of dining and shopping options.</p>
+<ul style="color: black;">
+    <li>Year Established: Marina Bay Sands opened in 2010.</li>
+    <li>Iconic Architecture: Known for its unique architecture, it features three towers with a rooftop park connecting them.</li>
+    <li>Architect: Moshe Safdie</li>
+    <li>Hotel Rooms: Over 2,500 luxurious guest rooms and suites.</li>
+</ul>
+<p style="color: black;">If you're planning to visit the Marina Bay Sands, consider the following tips:</p>
+<ul style="color: black;">
+    <li>Marina Bay Sands has several sustainability initiatives, such as water and energy conservation.</li>
+    <li>The light and sound show at the Marina Bay Sands Skypark is a must-see attraction.</li>
+    <li>Features a permanent art collection, including works by renowned artists.</li>
+</ul>
+
+    </div>
+
+    <!-- Gardens by the Bay -->
+    <div class="place">
+        <h2>Gardens by the Bay</h2>
+        <img src="https://api.architectuul.org/media/59d79e94-0ae8-42bd-893f-4fdd6d7b5e1b/1312x.jpg" alt="Gardens by the Bay">
+        <p>TThese futuristic gardens are home to the impressive Supertree Grove, Cloud Forest, and Flower Dome. It's a beautiful place to explore nature and experience sustainable horticulture.</p>
+        <ul>
+            <li>Year Established: 2012.</li>
+            <li>Location: Marina Bay, Singapore.</li>
+            <li>Total Area: 101 hectares (250 acres).</li>
+            <li>Architect: Grant Associates (landscape) and Wilkinson Eyre (Supertree Grove).</li>
+        </ul>
+        <p>When visiting the Gardens by the Bay:</p>
+        <ul>
+            <li>The Heritage Gardens showcase Singapore's cultural diversity.</li>
+            <li>The Cloud Forest features a unique display of rare and high-altitude plants.</li>
+            <li>The Gardens are known for their sustainability efforts and environmentally-friendly features.</li>
+        </ul>
+    </div>
+
+     <!-- Sentosa Island -->
+     <div class="place">
+        <h2>Sentosa Island</h2>
+        <img src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit1440960gsm/eventThirdParty/2023/04/05/51c66428-2081-4693-949e-cf31e1c1d0d9-1680631938559-72ba7d7125c9212be6be446d10689d6d.png" alt="Sentosa Island">
+        <p>This resort island offers a variety of attractions, including Universal Studios Singapore, Adventure Cove Waterpark, S.E.A. Aquarium, and beautiful beaches. </p>
+        <ul>
+            <li>Year Established: Developed as a resort in the 1970s.</li>
+            <li>Location: It is located in the southern part of Singapore, connected to the mainland by a causeway.</li>
+            <li>Architect: Sentosa's development involved various architects and urban planners over the years.</li>
+            <li>Area: Sentosa Island covers approximately 5.5 square kilometers (2.1 square miles).</li>
+        </ul>
+        <p>When visiting the Sentosa Island:</p>
+        <ul>
+            <li>Sentosa boasts several beautiful beaches, including Siloso Beach, Palawan Beach, and Tanjong Beach.</li>
+            <li>Universal Studios Singapore: This popular theme park opened on Sentosa Island in 2010 and features numerous rides and attractions based on Hollywood movies.</li>
+            <li>Sentosa offers several nature trails and lush green spaces for relaxation.</li>
+        </ul>
+    </div>
+
+     <!-- Singapore Zoo -->
+     <div class="place">
+        <h2>Singapore Zoo</h2>
+        <img src="https://www.kidstrotter.tech/assets/Activities/Wildlife/Singapore%20Zoo/2021-06-24-b0f0fd556c281ff29c86f87815b0a050a11638c89c12cea73ce03b3e677e631f.jpg" alt="Singapore Zoo">
+        <p>Renowned for its open and spacious enclosures, the Singapore Zoo offers the opportunity to see a wide variety of animals in a more naturalistic setting.</p>
+        <ul>
+            <li>Year Established: 1973</li>
+            <li>Area: Approximately 69 acres (28 hectares)</li>
+            <li>Number of Visitors (annually): Over 2 million.</li>
+            <li>World's First: Known for being the world's first "open concept" zoo.</li>
+        </ul>
+        <p>When visiting the Singapore Zoo:</p>
+        <ul>
+            <li> Guided tram rides for an overview of the zoo.</li>
+            <li> Features a water playground and animal-themed carousel.</li>
+            <li>Received numerous awards for its conservation efforts.</li>
+        </ul>
+    </div>
+
+     <!-- Singapore Botanic Gardens -->
+     <div class="place">
+        <h2>Singapore Botanic Gardens</h2>
+        <img src="https://images.squarespace-cdn.com/content/v1/529d7d76e4b08459e4ccf104/1498553256099-2OFSSH35KP3G9EUV7POB/Walk+of+Giants+1+Stephen+Caffyn+Landscape+Design?format=1500w" alt="Singapore Botanic Gardens">
+        <p> This UNESCO World Heritage site features lush greenery, colorful orchids in the National Orchid Garden, and a peaceful atmosphere for a leisurely stroll.</p>
+        <ul>
+            <li>Year Established: 1859</li>
+            <li>Architect: Lawrence Niven </li>
+            <li>Area: 74 hectares (183 acres)</li>
+            <li>Number of Visitors (annually): Over 4.5 million.</li>
+        </ul>
+        <p>When visiting the Singapore Botanic Gardens:</p>
+        <ul>
+            <li>Numerous themed gardens like the Healing Garden and Fragrant Garden.</li>
+            <li>Offers guided tours for visitors interested in the garden's history and biodiversity.</li>
+            <li>A popular spot for picnics and leisurely walks.</li>
+        </ul>
+    </div>
+
+     <!-- Chinatown -->
+     <div class="place">
+        <h2>Chinatown</h2>
+        <img src="https://img.goodfon.com/original/1600x900/f/92/chinatown-singapur-singapore-skyline.jpg" alt="Chinatown">
+        <p>Explore the vibrant streets of Chinatown with its bustling markets, historic temples like the Buddha Tooth Relic Temple, and delicious street food.</p>
+        <ul>
+            <li>Year Established: 1822.</li>
+            <li>Architectural Style: A blend of Chinese and colonial influences.</li>
+            <li>Area: Approximately 42 hectares.</li>
+            <li>Location: In the heart of Singapore's Central Business District.</li>
+        </ul>
+        <p>When visiting the Chinatown:</p>
+        <ul>
+            <li>Immerse yourself in the rich cultural heritage of Chinatown through guided tours and cultural performances.</li>
+            <li>Renowned for its delicious street food, including Hainanese chicken rice, dim sum, and more.</li>
+            <li>Visit during Chinese New Year for festive celebrations.</li>
+        </ul>
+    </div>
+
+     <!-- Little India -->
+     <div class="place">
+        <h2>Little India</h2>
+        <img src="https://images.unsplash.com/photo-1648366314309-ed77cf36507b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Little India">
+        <p> Immerse yourself in Indian culture with a visit to Little India. You'll find colorful streets, aromatic spices, and ornate temples like Sri Veeramakaliamman Temple.</p>
+        <ul>
+            <li>Year Established: Early 19th century.</li>
+            <li>Architectural Style: Reflects traditional Indian architecture.</li>
+            <li>Area: Approximately 40 hectares.</li>
+            <li>Number of Visitors (Annually): Over 2 million tourists.</li>
+        </ul>
+        <p>When visiting the Little India:</p>
+        <ul>
+            <li>Little India in Singapore is a vibrant and culturally rich neighborhood that offers a slice of Indian heritage, cuisine, and traditions amidst the modern cityscape. </li>
+            <li>Showcases the history and culture of the Indian community in Singapore.</li>
+            <li>Opportunities to engage in traditional music and dance performances.</li>
+        </ul>
+    </div>
+
+     <!-- Merlion Park -->
+     <div class="place">
+        <h2>Merlion Park</h2>
+        <img src="https://sirbtrips.com/storage/files/gallery_4-5a0c33779da19.jpg?size=825,430&encode=jpg" alt="Merlion Park">
+        <p>Home to the iconic Merlion statue, this park offers picturesque views of the city skyline and Marina Bay. It's a great spot for photos.</p>
+        <ul>
+            <li>Year Established: 1972.</li>
+            <li>Architect: Fraser Brunner.</li>
+            <li>Area: 2,500 square meters.</li>
+            <li>Symbol of Singapore: The Merlion is a national symbol of Singapore.</li>
+        </ul>
+        <p>When visiting the Merlion Park:</p>
+        <ul>
+            <li> A popular place to view fireworks during New Year's Eve celebrations.</li>
+            <li>Features well-maintained walking paths along the waterfront.</li>
+        </ul>
+    </div>
+
+     <!-- ArtScience Museum -->
+     <div class="place">
+        <h2>ArtScience Museum</h2>
+        <img src="https://a.cdn-hotels.com/gdcs/production185/d20/3baed0bf-0806-42d1-b205-22021f8a7c65.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="ArtScience Museum">
+        <p>Located at Marina Bay Sands, this museum combines art and science in interactive exhibitions and is known for its unique architecture.</p>
+        <ul>
+            <li>Year Established: 2011.</li>
+            <li>Architect: Moshe Safdie, a renowned architect known for his innovative designs.</li>
+            <li>Area: The museum is situated within the iconic Marina Bay Sands resort complex.</li>
+            <li>The museum's unique lotus-shaped building is a prominent feature of Singapore's skyline.</li>
+        </ul>
+        <p>When visiting the ArtScience Museum:</p>
+        <ul>
+            <li>Popular tourist exhibitions have included "Future World: Where Art Meets Science" and "Treasures of the Natural World."</li>
+            <li>The structure is known for its sustainable design, featuring rainwater harvesting and energy-efficient systems.</li>
+            <li>ArtScience Museum is a must-visit destination for those interested in the fusion of art and science, and it adds a unique dimension to Singapore's cultural landscape.</li>
+        </ul>
+    </div>
+
+    <!-- National Museum of Singapore -->
+    <div class="place">
+        <h2>National Museum of Singapore</h2>
+        <img src="https://marketing-interactive-assets.b-cdn.net/images/sg/banner/nms.jpg?auto_optimize=medium" alt="National Museum of Singapore">
+        <p> Dive into the country's history and culture with a visit to this museum, which offers engaging exhibits and multimedia displays.</p>
+        <ul>
+            <li>Year Established: The National Museum of Singapore was established in 1849.</li>
+            <li>Architect: It was designed by architect John Frederick Adolphus McNair.</li>
+            <li>Area: The museum is located on Stamford Road and occupies an area of approximately 18,400 square meters.</li>
+            <li>Number of Visitors: The museum welcomes over 1.5 million visitors annually.</li>
+        </ul>
+        <p>When visiting the National Museum of Singapore:</p>
+        <ul>
+            <li>The museum offers interactive displays and multimedia presentations to engage visitors.</li>
+            <li>It is known for its commitment to the conservation and preservation of Singapore's heritage.</li>
+            <li>The National Museum of Singapore is a key institution for understanding Singapore's rich history and culture, making it a must-visit for tourists interested in the country's heritage.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

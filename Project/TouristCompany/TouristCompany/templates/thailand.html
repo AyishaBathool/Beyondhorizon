@@ -1,0 +1,418 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Thailand</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Top Places to Visit in Thailand</h1>
+    </header>
+
+    <!-- Bangkok -->
+    <div class="place">
+        <h2> Bangkok</h2>
+        <img src="https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="Bangkok">
+        <p style="color: black;">The capital city is a bustling metropolis with a mix of modernity and tradition. Explore the Grand Palace, Wat Pho, and enjoy the vibrant street life.</p>
+<ul style="color: black;">
+    <li>Location: Bangkok is situated in the central part of Thailand, along the Chao Phraya River in the southern part of the country.</li>
+    <li>Area: The city covers an area of approximately 1,568.7 square kilometers (605.7 square miles).</li>
+    <li>Neighborhoods: Bangkok is divided into various districts and neighborhoods, each with its own character and attractions.</li>
+    <li>Street Food: Bangkok is renowned for its street food, with countless vendors offering delicious and affordable Thai cuisine.</li>
+</ul>
+<p style="color: black;">If you're planning to visit Bangkok, consider the following tips:</p>
+<ul style="color: black;">
+    <li>Lumpini Park: A large park in the city center offering a peaceful escape from the urban bustle, with a lake and opportunities for leisurely activities.</li>
+    <li>Asiatique the Riverfront: A bustling night market along the Chao Phraya River with shops, restaurants, and entertainment options.</li>
+    <li> Chao Phraya River: A major waterway in Bangkok, offering boat cruises with scenic views of the city's skyline.</li>
+</ul>
+
+    </div>
+
+    <!-- Chiang Mai -->
+    <div class="place">
+        <h2>Chiang Mai</h2>
+        <img src="https://a.cdn-hotels.com/gdcs/production133/d198/6b39bbf9-8015-4323-af0e-3d06d72765a2.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="Chiang Mai">
+        <p>Located in northern Thailand, Chiang Mai is known for its historic temples, lush mountains, and the annual Yi Peng Lantern Festival.</p>
+        <ul>
+            <li>Location: Chiang Mai is located in northern Thailand, approximately 700 kilometers (435 miles) north of Bangkok.</li>
+            <li>Population: It is the largest city in northern Thailand, with a population of over 1.6 million people in the metropolitan area.</li>
+            <li>Climate: Chiang Mai has a tropical wet and dry climate, with a distinct wet season from May to October and a dry season from November to April.</li>
+            <li>Culture: The city is known for its rich Lanna culture, with many historical temples, festivals, and traditional art forms.</li>
+        </ul>
+        <p>When visiting Chiang Mai:</p>
+        <ul>
+            <li> Art in Paradise Chiang Mai: An interactive 3D art museum where you can become a part of the artwork.</li>
+            <li>Wat Phra Singh: One of Chiang Mai's most revered temples, known for its beautiful architecture and Buddha images.</li>
+            <li>Doi Suthep: A sacred mountain and home to Wat Phra Singh, a stunning temple with panoramic views of Chiang Mai.</li>
+        </ul>
+    </div>
+
+     <!-- Phuket -->
+     <div class="place">
+        <h2>Phuket</h2>
+        <img src="https://www.10wallpaper.com/wallpaper/1366x768/1301/phuket-Sunny_Beach_Landscape_Wallpaper_1366x768.jpg" alt="Phuket">
+        <p> Thailand's largest island, Phuket is famous for its stunning beaches, water sports, and vibrant nightlife in areas like Patong Beach.</p>
+        <ul>
+            <li>Location: Phuket is an island province in southern Thailand, situated in the Andaman Sea.</li>
+            <li>Area: Phuket is Thailand's largest island, covering an area of approximately 576 square kilometers.</li>
+            <li>Geography: The island features diverse landscapes, including lush mountains, white sandy beaches, and tropical rainforests.</li>
+            <li>Capital: The capital city of Phuket Province is also called Phuket, located on the southeastern coast of the island.</li>
+        </ul>
+        <p>When visiting the Phuket:</p>
+        <ul>
+            <li> Patong Beach: One of the most popular beaches on the island, known for its vibrant nightlife and water sports.</li>
+            <li>Big Buddha: A massive 45-meter-tall statue located on Nakkerd Hill with panoramic views of the island.</li>
+            <li> Wat Chalong: The largest and most important Buddhist temple in Phuket, known for its beautiful architecture.</li>
+        </ul>
+    </div>
+
+     <!-- Ayutthaya -->
+     <div class="place">
+        <h2>Ayutthaya</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Ayutthaya_Historical_Park_1.jpg/800px-Ayutthaya_Historical_Park_1.jpg" alt="Ayutthaya">
+        <p>This UNESCO World Heritage site is a historical treasure, with ancient temples and ruins that once served as the second Siamese capital.</p>
+        <ul>
+            <li>Location: Ayutthaya is situated approximately 85 kilometers north of Bangkok, Thailand's capital.</li>
+            <li>Historical Significance: The city served as the second capital of the Siamese Kingdom (Siam) from the 14th to the 18th century.</li>
+            <li>UNESCO World Heritage Site: Ayutthaya Historical Park, a UNESCO World Heritage Site, contains the ruins of the old city and its historical temples.</li>
+            <li>Area: The historical park covers an area of about 289 hectares.</li>
+        </ul>
+        <p>When visiting the Ayutthaya:</p>
+        <ul>
+            <li> Wat Phra Si Sanphet: This is the grandest temple in Ayutthaya and formerly housed the royal palace. It features three iconic chedis.</li>
+            <li> Wat Phra Mahathat: Known for the iconic Buddha head entwined in the roots of a tree, this temple is one of Ayutthaya's most famous landmarks.</li>
+            <li>Wat Ratchaburana: This temple is known for its well-preserved prang (tower) and richly adorned interior with murals.</li>
+        </ul>
+    </div>
+
+     <!-- Chiang Rai -->
+     <div class="place">
+        <h2>Chiang Rai</h2>
+        <img src="https://images.unsplash.com/photo-1578335144141-069e13ef7890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1631&q=80" alt="Chiang Rai">
+        <p>Explore the unique White Temple (Wat Rong Khun) and the Black House (Baan Dam), and witness the Golden Triangle where Thailand meets Myanmar and Laos.</p>
+        <ul>
+            <li>Chiang Rai is the northernmost province in Thailand, bordering both Myanmar (Burma) and Laos.</li>
+            <li>The province covers an area of approximately 11,678 square kilometers (4,505 square miles). </li>
+            <li>It is part of the Golden Triangle region, historically known for its opium production.</li>
+            <li>Chiang Rai offers a mix of cultural, natural, and historical attractions, making it a diverse and captivating destination for travelers in northern Thailand.</li>
+        </ul>
+        <p>When visiting the Chiang Rai</p>
+        <ul>
+            <li>Doi Mae Salong: A village founded by Chinese refugees, known for its tea plantations, beautiful landscapes, and a strong Chinese cultural influence.</li>
+            <li>Phu Chi Fah: A mountain peak known for its stunning sunrise views and beautiful landscapes.</li>
+            <li>Mae Fah Luang Art and Cultural Park: A museum and park dedicated to preserving and displaying traditional Lanna art and culture.</li>
+        </ul>
+    </div>
+
+     <!-- Krabi Province -->
+     <div class="place">
+        <h2>Krabi Province</h2>
+        <img src="https://images.unsplash.com/photo-1589211059547-2dc456fd0be0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Krabi Province">
+        <p>Known for its stunning limestone karsts, Krabi offers a range of outdoor activities, including rock climbing, island hopping, and exploring Railay Beach.</p>
+        <ul>
+            <li>Location: Krabi is situated on the Andaman Sea coast of southern Thailand.</li>
+            <li>Area: Krabi Province covers an area of approximately 4,708 square kilometers.</li>
+            <li>Geography: The province is characterized by dramatic limestone karsts, lush jungles, serene beaches, and numerous islands.</li>
+            <li>Krabi Town: The provincial capital, Krabi Town, is a hub for transportation and a great place to explore local markets, restaurants, and culture.</li>
+        </ul>
+        <p>When visiting the Krabi Province:</p>
+        <ul>
+            <li>Ao Phang Nga National Park: Home to James Bond Island (Koh Tapu), a famous movie location, this park features unique limestone formations and caves.</li>
+            <li>Thung Teao Forest Natural Park: Home to the famous Emerald Pool (Sa Morakot), a natural pool with crystal-clear water.</li>
+            <li>Wat Tham Sua (Tiger Cave Temple): A renowned Buddhist temple located within a cave, offering panoramic views of the surrounding area.</li>
+        </ul>
+    </div>
+
+     <!-- Sukhothai -->
+     <div class="place">
+        <h2>Sukhothai</h2>
+        <img src="https://www.new-walls.com/thumbnail/56/22/ac/1687605355/8bc5827282ad547a397d3ba637fa16a1_800x800.jpg" alt="Sukhothai">
+        <p> Another UNESCO World Heritage site, Sukhothai is home to the first capital of Thailand, with well-preserved ruins and historical parks.</p>
+        <ul>
+            <li>Sukhothai is situated in the Lower North region of Thailand.</li>
+            <li>It's approximately 427 kilometers north of Bangkok, making it easily accessible by road or air.</li>
+            <li>The historic city is a UNESCO World Heritage Site, known for its well-preserved ruins.</li>
+            <li>The architecture of Sukhothai is characterized by its distinct Sukhothai-style stupas, Buddha statues, and stone inscriptions.</li>
+        </ul>
+        <p>When visiting the Sukhothai:</p>
+        <ul>
+            <li>Wat Mahathat: This temple features a famous seated Buddha image. </li>
+            <li>Wat Si Sawai: It's known for its three Khmer-style prangs.</li>
+            <li>San Ta Pha Daeng Market: A vibrant local market for shopping and trying authentic Thai dishes.</li>
+        </ul>
+    </div>
+
+     <!-- Pai -->
+     <div class="place">
+        <h2>Pai</h2>
+        <img src="https://c0.wallpaperflare.com/preview/224/838/427/thailand-sunrise-pai-landscape.jpg" alt="Pai">
+        <p>Nestled in the mountains of northern Thailand, Pai is a laid-back town known for its scenic beauty, hot springs, and waterfalls.</p>
+        <ul>
+            <li>Location: Pai is situated in a valley in the mountains of Northern Thailand, approximately 130 kilometers (81 miles) northwest of Chiang Mai.</li>
+            <li>Geography: The town is nestled within lush, mountainous terrain, offering panoramic views, waterfalls, and serene landscapes.</li>
+            <li>Area: The Pai district covers an area of about 2,502 square kilometers. </li>
+            <li>Climate: Pai has a tropical monsoon climate with a distinct rainy season </li>
+        </ul>
+        <p>When visiting the Pai:</p>
+        <ul>
+            <li>Pai Canyon: A series of narrow sandstone ridges provide breathtaking views of the surrounding valleys and make for an exciting trek.</li>
+            <li>Chinese Village (Santichon Village): An ethnic Chinese village with tea plantations and a unique atmosphere. You can taste Yunnan-style tea and snacks.</li>
+        </ul>
+    </div>
+
+     <!-- Koh Samui -->
+     <div class="place">
+        <h2>Koh Samui</h2>
+        <img src="https://images.unsplash.com/photo-1589211059547-2dc456fd0be0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Koh Samui">
+        <p>This island in the Gulf of Thailand offers beautiful beaches, water activities, and a relaxed atmosphere, making it an ideal destination for relaxation.</p>
+        <ul>
+            <li>Location: Koh Samui is located in the Gulf of Thailand, about 35 kilometers (22 miles) off the coast of the mainland.</li>
+            <li>Size: It is the second-largest island in Thailand, with an area of approximately 228.7 square kilometers (88.3 square miles).</li>
+            <li>Geography: The island features a diverse landscape with lush jungles, coconut palm-fringed beaches, and mountainous terrain.</li>
+            <li>Climate: Koh Samui has a tropical climate with a wet season from November to January and a dry season from February to October.</li>
+        </ul>
+        <p>When visiting the Koh Samui:</p>
+        <ul>
+            <li>Big Buddha Temple (Wat Phra Yai): A famous temple featuring a giant 12-meter (39-foot) seated Buddha statue.</li>
+            <li>Namuang Waterfall: The island's most famous waterfall, with two tiers and a natural pool for swimming.</li>
+            <li>Angthong National Marine Park: A group of 42 islands known for their stunning limestone karsts and clear waters.</li>
+        </ul>
+    </div>
+
+    <!-- Hua Hin -->
+    <div class="place">
+        <h2>Hua Hin</h2>
+        <img src="https://c0.wallpaperflare.com/preview/226/521/112/thailand-tambon-hua-hin-%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5-%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%AB%E0%B8%B4%E0%B8%99-sea.jpg" alt="Hua Hin">
+        <p> Located on the Gulf of Thailand, Hua Hin is a popular coastal resort town known for its royal palace, night markets, and golf courses.</p>
+        <ul>
+            <li>Hua Hin is a seaside resort town located on the Gulf of Thailand, in the northern part of the Malay Peninsula.</li>
+            <li>Hua Hin has a rich history and was a favorite vacation spot for the Thai royal family, with several royal palaces in the area.</li>
+            <li>Cicada Market: A popular night market with arts, crafts, live music, and street food.</li>
+            <li>Phra Ratchawang Klai Kangwon (Klai Kangwon Palace) is one of the royal residences and a major landmark in the town.</li>
+        </ul>
+        <p>When visiting the Hua Hin:</p>
+        <ul>
+            <li>Black Mountain Water Park: A popular family-friendly water park.</li>
+            <li>Hua Hin is known as a golfing paradise with numerous golf courses, including the Royal Hua Hin Golf Course and Black Mountain Golf Club.</li>
+            <li>Songkran Festival (Thai New Year) is celebrated with water fights and traditional ceremonies.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>

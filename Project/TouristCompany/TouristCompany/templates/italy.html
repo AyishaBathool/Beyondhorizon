@@ -1,0 +1,419 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Beyond Horizon | Italy</title>
+
+    <style>
+        
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff9900; /* Orange color for heading */
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .place {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .place h2 {
+            color: #0077b6; /* Blue color for headings */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            
+                
+        }
+        
+        
+
+        header img {
+            width: 100px;
+            height: auto;
+            <header>
+                <img src="{% static '<a href="https://imgbb.com/"><img src="https://i.ibb.co/crLf6s7/Cream-and-Green-Circles-Art-Design-Logo.png" alt="Cream-and-Green-Circles-Art-Design-Logo" border="0"></a>' %}" alt="Your Image Alt Text">
+            </header>
+            
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .hero {
+            background-image: url('{% static "slide1.jpg" %}');  
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #412e6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+            background-color: #111;
+        }
+
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .destination {
+            background-color: #111; 
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .destination h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .destination p {
+            font-size: 18px;
+        }
+
+        .contact-info {
+            background-color: #000; /* Dark background for contact information */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section {
+            padding: 40px 0;
+            background-color: #111; /* Dark background for additional sections */
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #000; /* Dark background for the footer */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+         /* Define a CSS class for centering text */
+         .center-text {
+            text-align: center; /* Horizontally center the text */
+            line-height: 200px; /* Vertically center the text (adjust as needed) */
+            height: 200px; /* Set the height of the container (adjust as needed) */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="{% static 'be.jpg' %}" alt="Your Image Alt Text"></a>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="paris.html">Paris</a>
+        <a href="dubai.html">Dubai</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="italy.html">Italy</a>
+        <a href="thailand.html">Thailand</a>
+        <a href="egypt.html">Egypt</a>
+        <a href="switzerland.html">Switzerland</a>
+        <a href="maldives.html">Maldives</a>
+        <a href="germany.html">Germany</a>
+        <a href="aust.html">Australia</a>
+        <a href="book.html">Book Now</a>
+    </nav>
+    <header>
+        <h1>Top Places to Visit in Italy</h1>
+    </header>
+
+    <!-- Rome -->
+    <div class="place">
+        <h2> Rome</h2>
+        <img src="https://wallpapersmug.com/download/1600x900/c805c3/colosseum-ancient-architecture-rome.jpg" alt="Rome">
+        <p style="color: black;">The capital city of Italy is a treasure trove of historical sites, including the Colosseum, Roman Forum, Pantheon, and Vatican City with St. Peter's Basilica and the Sistine Chapel. Don't forget to toss a coin into the Trevi Fountain for good luck.</p>
+<ul style="color: black;">
+    <li>Location: Rome is located in the Lazio region of central Italy.</li>
+    <li>Area: Rome covers an area of approximately 1,285 square kilometers (496 square miles).</li>
+    <li>Population: The city has a population of over 2.8 million people.</li>
+    <li>Weather: Rome has a Mediterranean climate with hot, dry summers and mild, wet winters.</li>
+</ul>
+<p style="color: black;">If you're planning to visit  Rome, consider the following tips:</p>
+<ul style="color: black;">
+    <li>Colosseum: The iconic ancient Roman amphitheater, once used for gladiator contests, is a must-visit.</li>
+    <li>Enjoy traditional Roman dishes such as pasta carbonara, cacio e pepe, and Roman-style pizza.</li>
+    <li> Rome offers an abundance of history, art, and culture, so take your time to explore and savor the city's rich heritage and vibrant atmosphere.</li>
+</ul>
+
+    </div>
+
+    <!-- Florence -->
+    <div class="place">
+        <h2>Florence</h2>
+        <img src="https://mcdn.wallpapersafari.com/medium/91/93/LxDUsj.jpg" alt="Florence">
+        <p>Known as the birthplace of the Renaissance, Florence is home to iconic art and architecture. Must-visit attractions include the Uffizi Gallery, Florence Cathedral (Duomo), and the Ponte Vecchio bridge.</p>
+        <ul>
+            <li>Location: Florence is located in the Tuscany region of central Italy.</li>
+            <li>History: Florence is often referred to as the "Cradle of the Renaissance" due to its significant role in the cultural and artistic development of Europe during the 14th to 17th centuries.</li>
+            <li>Area: Florence covers an area of approximately 102 square kilometers (39 square miles).</li>
+            <li>Famous Figures: Florence is associated with renowned historical figures such as Leonardo da Vinci, Michelangelo, and Dante Alighieri.</li>
+        </ul>
+        <p>When visiting Florence:</p>
+        <ul>
+            <li> The Palazzo Vecchio is Florence's town hall, known for its impressive medieval architecture.</li>
+            <li>The iconic Florence Cathedral features a magnificent dome designed by Brunelleschi.</li>
+            <li>The statue of David by Michelangelo is housed in the Accademia Gallery.</li>
+        </ul>
+    </div>
+
+     <!-- Venice -->
+     <div class="place">
+        <h2>Venice</h2>
+        <img src="https://uhdwallpapers.org/uploads/converted/18/08/06/romantic-sunset-in-venice-wallpaper-1600x900_85445-mm-90.webp" alt="Venice">
+        <p> Explore the unique city built on water with its intricate network of canals, historic buildings, and landmarks like St. Mark's Square, Doge's Palace, and the Rialto Bridge. Don't miss a gondola ride through the canals.</p>
+        <ul>
+            <li>Location: Venice is located in northeastern Italy, in the Veneto region.</li>
+            <li>Geography: The city is situated across 118 small islands in a lagoon along the Adriatic Sea.</li>
+            <li>Architecture: The city is renowned for its unique architectural style, with historic buildings, churches, and palaces lining the canals.</li>
+            <li>UNESCO: Venice is a UNESCO World Heritage Site, recognized for its cultural and historical significance.</li>
+        </ul>
+        <p>When visiting the Venice:</p>
+        <ul>
+            <li> The city hosts the annual Carnival of Venice, known for elaborate masks and costumes.</li>
+            <li>The Rialto Bridge is one of Venice's most famous bridges and offers stunning views of the Grand Canal.</li>
+            <li> Venice is home to several art museums, including the Gallerie dell'Accademia and the Peggy Guggenheim Collection.</li>
+        </ul>
+    </div>
+
+     <!-- Cinque Terre -->
+     <div class="place">
+        <h2>Cinque Terre</h2>
+        <img src="https://4kwallpapers.com/images/walls/thumbs_3t/12259.jpg" alt="Cinque Terre">
+        <p>This collection of five colorful fishing villages along the rugged coastline of the Italian Riviera is known for its stunning views, hiking trails, and beautiful beaches. It's a UNESCO World Heritage site.</p>
+        <ul>
+            <li>Location: Cinque Terre is located on the Italian Riviera in the Liguria region of northwestern Italy.</li>
+            <li>Villages: The five villages of Cinque Terre are Monterosso al Mare, Vernazza, Corniglia, Manarola, and Riomaggiore.</li>
+            <li>UNESCO World Heritage Site: Cinque Terre was designated as a UNESCO World Heritage Site in 1997 due to its unique natural and cultural significance.</li>
+            <li> The region features steep cliffs, terraced vineyards, and colorful buildings perched on the cliffs overlooking the Mediterranean Sea.</li>
+        </ul>
+        <p>When visiting the Cinque Terre:</p>
+        <ul>
+            <li> Cinque Terre has a rich cultural heritage, with traditional festivals, art exhibitions, and music events held throughout the year.</li>
+            <li>  The Sentiero Azzurro (Blue Trail) connects the five villages and offers breathtaking coastal views. The trails are a popular attraction for hikers.</li>
+            <li>Cinque Terre's stunning landscapes and unique charm make it a popular destination for travelers seeking a blend of natural beauty and coastal culture.</li>
+        </ul>
+    </div>
+
+     <!-- Amalfi Coast -->
+     <div class="place">
+        <h2>Amalfi Coast</h2>
+        <img src="https://wallpaperfx.com/view_image/amalfi-coast-positano-1600x900-wallpaper-18470.jpg" alt="Amalfi Coast">
+        <p> The Amalfi Coast offers breathtaking coastal scenery, charming towns like Positano and Amalfi, and opportunities for hiking and enjoying Mediterranean cuisine.</p>
+        <ul>
+            <li>Location: The Amalfi Coast is located in the Campania region of Southern Italy.</li>
+            <li>Geographic Features: It stretches along the coastline of the Tyrrhenian Sea, known for its rugged cliffs and picturesque towns. </li>
+            <li>Area: The Amalfi Coast covers approximately 50 kilometers (31 miles) of coastline.</li>
+            <li>UNESCO World Heritage Site: The Amalfi Coast is a designated UNESCO World Heritage Site due to its natural beauty and cultural significance.</li>
+        </ul>
+        <p>When visiting the Amalfi Coast</p>
+        <ul>
+            <li>Relax on the beautiful beaches, such as Spiaggia Grande in Positano and Marina Grande in Amalfi.</li>
+            <li>Explore hiking trails like the Path of the Gods (Sentiero degli Dei) for panoramic vistas.</li>
+            <li>Try the regional lemon liqueur, Limoncello, made from the Amalfi Coast's lemons.</li>
+        </ul>
+    </div>
+
+     <!-- Pompeii and Herculaneum -->
+     <div class="place">
+        <h2>Pompeii and Herculaneum</h2>
+        <img src="https://cdn.images.ondaplatform.com/https://www.visitpompeiivesuvius.com/VisitPompeiiVesuvius/images/hero.jpg?crop=smart&width=1360&height=660&format=webp" alt="Pompeii and Herculaneum">
+        <p>Explore the vibrant streets of Chinatown with its bustling markets, historic temples like the Buddha Tooth Relic Temple, and delicious street food.</p>
+        <ul>
+            <li>Located in Campania, Italy, near the Bay of Naples.</li>
+            <li>Pompeii was a bustling commercial and resort town; Herculaneum was a smaller, wealthier town.</li>
+            <li>Both cities were buried by the eruption of Mount Vesuvius in 79 AD.</li>
+            <li>Both Pompeii and Herculaneum are UNESCO World Heritage Sites.</li>
+        </ul>
+        <p>When visiting the Pompeii and Herculaneum:</p>
+        <ul>
+            <li>Explore well-preserved streets, houses, shops, and public buildings in both cities.</li>
+            <li>Herculaneum's seaside location offers a glimpse into Roman coastal life.</li>
+            <li>Visitors can take guided tours to learn more about the history and significance of these ancient cities.</li>
+        </ul>
+    </div>
+
+     <!-- Sicily -->
+     <div class="place">
+        <h2>Sicily</h2>
+        <img src="https://www.travelbeam.co.uk/wp-content/uploads/2018/08/Taormina-Bay-Sicily-1600x900.jpg" alt="Sicily">
+        <p> Italy's largest island boasts a diverse range of attractions, including ancient Greek temples in Agrigento, the historic city of Palermo, the stunning beaches of Taormina, and the volcanic landscapes around Mount Etna.</p>
+        <ul>
+            <li>Sicily is the largest island in the Mediterranean Sea.</li>
+            <li>It is an autonomous region of Italy, located in the southern part of the country.</li>
+            <li>The capital city of Sicily is Palermo.</li>
+            <li>Sicily has a rich history, with influences from Greek, Roman, Arab, and Norman civilizations.</li>
+        </ul>
+        <p>When visiting the Sicily:</p>
+        <ul>
+            <li>Sicily is a haven for water sports, including snorkeling, scuba diving, and windsurfing. </li>
+            <li>The historic city of Syracuse (Siracusa) boasts ancient ruins, an amphitheater, and the beautiful Ortigia Island.</li>
+            <li>Sicily's combination of natural beauty, rich history, and culinary delights make it a top destination for travelers exploring the Mediterranean.</li>
+        </ul>
+    </div>
+
+     <!-- Tuscany -->
+     <div class="place">
+        <h2>Tuscany</h2>
+        <img src="https://wallpaperfx.com/view_image/tuscany-italy-1600x900-wallpaper-14878.jpg" alt="Tuscany">
+        <p>This region is famous for its rolling hills, vineyards, and charming towns. Visit Siena, Pisa with the Leaning Tower, and the picturesque countryside dotted with wineries and farmhouses.</p>
+        <ul>
+            <li>Location: Tuscany is a region located in central Italy.</li>
+            <li>Capital: The capital of Tuscany is Florence (Firenze).</li>
+            <li>Area: Tuscany covers an area of approximately 23,000 square kilometers.</li>
+            <li>Population: It has a population of around 3.8 million people.</li>
+        </ul>
+        <p>When visiting the Tuscany:</p>
+        <ul>
+            <li>Visit the iconic Leaning Tower of Pisa and the stunning Piazza dei Miracoli.</li>
+            <li>Tuscany's rich history, artistic heritage, scenic landscapes, and culinary delights make it a top destination for tourists seeking a blend of culture, history, and natural beauty in Italy.</li>
+        </ul>
+    </div>
+
+     <!-- Milan -->
+     <div class="place">
+        <h2>Milan</h2>
+        <img src="https://wallpapersmug.com/download/1600x900/3511f3/milan-city-river-light-4k.jpg" alt="Milan">
+        <p>Known as Italy's fashion and design capital, Milan also offers cultural attractions such as Leonardo da Vinci's "The Last Supper" and the grand Gothic Milan Cathedral (Duomo).</p>
+        <ul>
+            <li>Milan is located in the northern part of Italy, in the Lombardy region.</li>
+            <li>It is Italy's second-largest city after Rome and serves as the capital of the Lombardy region.</li>
+            <li>Milan is a global fashion and design capital, hosting numerous fashion events and design exhibitions.</li>
+            <li>The city is renowned for its historical and contemporary influence in the worlds of art, architecture, and culture.</li>
+        </ul>
+        <p>When visiting the Milan:</p>
+        <ul>
+            <li>Milan is famous for its iconic Gothic cathedral, the Milan Cathedral (Duomo di Milano), which is one of the largest cathedrals in the world.</li>
+            <li>Tourists can explore the historic Sforza Castle (Castello Sforzesco), which houses museums and art collections.</li>
+            <li>Milan is known for its vibrant and diverse food scene, offering delicious Italian cuisine, including risotto alla milanese and panettone.</li>
+        </ul>
+    </div>
+
+    <!-- Naples -->
+    <div class="place">
+        <h2>Naples</h2>
+        <img src="https://www.irishtimes.com/resizer/EbR0S7gxmc2rHiMvKB2m8uJg_sw=/1600x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/DCK7AXDV7ZEZTP3LHGY253J5XY.jpg" alt="Naples">
+        <p> Explore the bustling city of Naples, known for its vibrant street life, historic sites like Castel dell'Ovo, and, of course, authentic Neapolitan pizza.</p>
+        <ul>
+            <li>Location: Naples is located in southern Italy along the Tyrrhenian Sea, and it is the capital of the Campania region.</li>
+            <li>Population: Naples is one of Italy's largest cities, with a population of over 950,000 people.</li>
+            <li>Historical Significance: It is one of the oldest continuously inhabited cities in the world, dating back to the 2nd millennium BC.</li>
+            <li>Climate: Naples enjoys a Mediterranean climate with hot, dry summers and mild, wet winters.</li>
+        </ul>
+        <p>When visiting the Naples:</p>
+        <ul>
+            <li>Naples is a city steeped in history and culture, with numerous attractions and a vibrant culinary scene that makes it a captivating destination for tourists.</li>
+            <li>Explore the hidden tunnels, cisterns, and aqueducts beneath the city.</li>
+            <li>Visit the historic seaside castle, offering scenic views of the Gulf of Naples.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Beyond Horizon Tourism</p>
+    </footer>
+    
+</body>
+</html>
